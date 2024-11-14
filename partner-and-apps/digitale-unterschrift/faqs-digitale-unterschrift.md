@@ -133,6 +133,14 @@ Nach der initialen Dokument Erstellung können Sie somit eine Weiterbearbeitung 
 
 </details>
 
+<details>
+
+<summary>Wie kann ein Mieter unterzeichnen, der keine E-Mail Adresse hat?</summary>
+
+Für diesen Fall kann die [#vor-ort-unterschrift](scrive-technologie-partner.md#vor-ort-unterschrift "mention") genutzt werden. Als E-Mail Adresse für den Mieter muss in dem Fall eine interne E-Mail Adresse hinterlegt werden.
+
+</details>
+
 ## Sicherheitsstufen
 
 <details>
