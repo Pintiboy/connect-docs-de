@@ -228,22 +228,6 @@ Sie können die Unterschriftsreihenfolge der Unterzeichner festlegen, sodass z.B
 
 Dabei können mehrere Unterzeichner die selbe Reihenfolge haben, z.B. können zweit externe Unterzeichner die Reihenfolge 1 haben und der interne Unterzeichner die Reihenfolge 2, somit müssen die externen Unterzeichner nicht auf die Unterschrift des jeweils anderen externen Unterzeichners warten und im Anschluss kann der interne Unterzeichner unterzeichnen.
 
-### Erinnerung nach Unterzeichnung von externen Unterzeichnern
-
-Zusätzlich zu der Unterschriftsreihenfolge, bieten wir, optional, die folgende Funktion an:
-
-Nach der Unterzeichnung aller externen Unterzeichner, können die internen Unterzeichner eine Erinnerung erhalten, sodass die internen Unterschriften möglichst zeitnah durchgeführt werden und Sie so Ihre Prozesslaufzeit weiter verringern können.
-
-<figure><img src="../../.gitbook/assets/image (33).png" alt="" width="563"><figcaption></figcaption></figure>
-
-Um diese Funktion zu aktivieren, müssen Sie die Integration **Digitale Unterschrift - Erinnerung nach Unterzeichnung von externen Unterzeichnern** ähnlich wie in [#aktivierung-in-aareon-connect](scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") beschrieben aktivieren.
-
-Dabei müssen Sie ihre Ihre interne E-Mail Domain angeben (z.B. `@wohnungs-unternehmen.de`), damit zwischen internen und externen Unterzeichnern unterschieden werden kann.
-
-{% hint style="info" %}
-Diese Prüfung läuft automatisch alle 24 Stunden.
-{% endhint %}
-
 ## Nutzer Gruppen
 
 Sie können in Scrive Nutzer Gruppen erstellen um die Nutzerverwaltung zu vereinfachen.
