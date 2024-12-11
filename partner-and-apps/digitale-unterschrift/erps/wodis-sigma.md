@@ -33,11 +33,7 @@ Um im Nachgang Aktivitäten für die digitale Unterschrift erstellen zu können,
 1. Gehen Sie auf **Aktivitätenmanagement > Stammdaten > Anlage von Aktivitäts-Standardwerten**
 2. Klicken Sie im Reiter **Anlage von Aktivitätstypen** auf das Feld mit dem Typnamen **Aufgabe** und fügen Sie über das Hauptmenü eine Neue hinzu.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (53).png" alt="" width="247"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (53).png" alt="" width="247"><figcaption></figcaption></figure></div>
 
 #### Einrichten der Aktivität "Anfrage Digitale Signatur"
 
@@ -53,11 +49,7 @@ Um im Nachgang Aktivitäten für die digitale Unterschrift erstellen zu können,
 
 
 
-    <div align="left">
-
-    <figure><img src="../../../.gitbook/assets/Aktivität Anlagen 1.png" alt="" width="536"><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../../../.gitbook/assets/Aktivität Anlagen 1.png" alt="" width="536"><figcaption></figcaption></figure></div>
 
 #### Einrichten der Aktivität "Antwort auf digitale Signaturanfrage"
 
@@ -72,11 +64,7 @@ Wie auch bei der Einrichtung der vorherigen Aktivität können Sie zunächst Ihr
 
 Alle anderen Haken in den Einstellungen können Sie entfernen. Ihre Einstellungen sollten nun wie die Abbildung aussehen.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/Überschrift hinzufügen (1) (1).png" alt="" width="536"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/Überschrift hinzufügen (1) (1).png" alt="" width="536"><figcaption></figcaption></figure></div>
 
 ### Jobplanung Einrichten
 
@@ -84,11 +72,7 @@ Die Jobs dienen dazu, die leeren Dokumente an Scrive zu übermitteln und die unt
 
 1. Gehen Sie in den Modulen den Pfad **Zentrale Funktionen** > **Vorgangsmanagement** > **Job Planung**. Hier richten sie die beiden nachfolgenden Jobs ein.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (45) (1).png" alt="" width="235"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (45) (1).png" alt="" width="235"><figcaption></figcaption></figure></div>
 
 2.  **Serienbrief für die Digitale Unterschrift aus Wodis in Scrive übertragen**
 
@@ -133,7 +117,7 @@ Dies können Sie hier in dem Geschäftspartner Modul eintragen:
 
 ## Vorbereitung Ihrer Dokumente
 
-Für die Digitale Unterschrift nutzen Sie wie gewohnt den Schriftverkehr in WODIS Sigma ([weitere Informationen](https://www.aareon.de/Support\_und\_Wissen/Dossier\_Schriftverkehr\_mit\_Wodis\_Sigma.212684.html) \[Verlinkung auf Aareon Support und Beratung, Zugang nur mit Login möglich]).
+Für die Digitale Unterschrift nutzen Sie wie gewohnt den Schriftverkehr in WODIS Sigma ([weitere Informationen](https://www.aareon.de/Support_und_Wissen/Dossier_Schriftverkehr_mit_Wodis_Sigma.212684.html) \[Verlinkung auf Aareon Support und Beratung, Zugang nur mit Login möglich]).
 
 Verschiedenste Anchor Tags, die im Unterzeichnungsvorgang den passenden Unterzeichnern zugeordnet werden, sodass diese an den von Ihnen vorgesehenen Stellen Unterschreiben oder Felder ausfüllen, können hinzugefügt werden.
 
@@ -220,7 +204,7 @@ Sie können die Dokumenten-ID auch direkt während der Aktivitäten Erstellung i
 Der Wert für den **Aufgabenstatus** der Aktivität muss leer gelassen werden.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Aktivitäten Aufgaben Tab mit ausgefüllten <strong>E-Mail Adressen für Beobachter</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Aktivitäten Aufgaben Tab mit ausgefüllten <strong>E-Mail Adressen für Beobachter</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 Die Reihenfolge der hinzugefügten Anhänge in Wodis Sigma entspricht der Reihenfolge der Dokumente in Scrive.

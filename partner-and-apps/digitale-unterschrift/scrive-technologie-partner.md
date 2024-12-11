@@ -115,15 +115,28 @@ Nachdem Sie die [#initiale-einrichtung-in-scrive](scrive-technologie-partner.md#
 
 1. Öffnen Sie **Aareon Connect** in Ihrem ERP System ([mehr Details](../../erps/))
 2. Gehen Sie auf **Scrive**
-3.  Geben Sie bei der Integration **Digitale Unterschrift mit Scrive** die Zugangsdaten für den Scrive Nutzter ein (muss ein Admin Nutzer sein), den Sie für die Integration verwenden möchten
+3.  Wählen Sie bei der Integration **Digitale Unterschrift mit Scrive** die Umgebung **Production** aus und klicken Sie auf **Autorisieren**
 
-    1. Wie in [#3.-nutzer-einladen](scrive-technologie-partner.md#3.-nutzer-einladen "mention") beschrieben, empfehlen wir, dass Sie einen Admin Nutzer speziell für die Integration nutzen um Probleme bei z.B. Passwort Änderung eines regulären Nutzers zu vermeiden
-
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-4. Klicken Sie auf **Autorisieren**
-   1. Die Nutzerdaten werden direkt überprüft und bei falschen Informationen erhalten Sie eine Meldung mit weiteren Informationen
+    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+4. Sie werden nun auf eine Login von Scrive weitergeleitet wo Sie sich mit dem Scrive Nutzer einloggen (muss ein Admin Nutzer sein), den Sie für die Integration verwenden möchten
+   1. Wie in [#3.-nutzer-einladen](scrive-technologie-partner.md#3.-nutzer-einladen "mention") beschrieben, empfehlen wir, dass Sie einen Admin Nutzer speziell für die Integration nutzen um Probleme bei z.B. Passwort Änderung eines regulären Nutzers zu vermeiden
+   2. Die Nutzerdaten werden direkt überprüft und bei falschen Informationen erhalten Sie eine Meldung mit weiteren Informationen
 5. Die Integration ist nun aktiviert
-6. Sie erhalten somit in den kommenden Stunden via E-Mail die nötigen Informationen um die Integration im ERP System fertig einzurichten
+6. Unsere Digitale Unterschrift Kundenbetreuer helfen Ihnen dann mit den nächsten Schritten
+
+### Einstellungsmöglichkeiten
+
+Nachdem Sie Ihre Scrive Login Daten hinterlegt haben können Sie im Schritt **Benutzerdefinierte Daten** optionale Einstellungen für die Integration vornehmen.
+
+#### Tage bis zum Fälligkeitsdatum
+
+Hier können Sie den Standardwert von 90 Tagen bis zum Fälligkeitsdatum eines Umschlages überschreiben. Wenn Sie das Feld leer lassen, wird 90 Tage benutzt.
+
+Wird das Dokument nach Ablauf dieser konfigurierten Frist nicht unterzeichnet, wird der Vorgang automatisch abgebrochen und die Aufforderung zur Unterzeichnung erlischt.
+
+<figure><img src="../../.gitbook/assets/Arc 2024-12-11 14.15.35.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Ablauf von QES in Scrive
 

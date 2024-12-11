@@ -20,7 +20,7 @@ Als **DocuSign Bestandskunde** können Sie bis auf weiteres weiterhin DocuSign f
     Wenn der Account Name nicht auftaucht, überprüfen Sie, dass Sie den Namen richtig eingegeben haben und das Sie sich in Schritt 4. erfolgreich autorisiert haben.\
 
 
-    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
     1. _Optional_: Geben Sie die Bezeichnung der von Ihnen genutzten (Alternativer) QES Identitätsüberprüfung an, mehr Details in [#nutzung-von-qes](umstellung-docusign-integration.md#nutzung-von-qes "mention")
     2. _Optional_: Setzen Sie einen benutzerdefinierten E-Mail Betreff und/oder E-Mail Text, mehr Details in [#benutzerdefinierter-e-mail-betreff-und-text](umstellung-docusign-integration.md#benutzerdefinierter-e-mail-betreff-und-text "mention")
@@ -34,7 +34,7 @@ Als **DocuSign Bestandskunde** können Sie bis auf weiteres weiterhin DocuSign f
 Mehr Details zu [#qualifizierte-elektronische-unterschrift](./#qualifizierte-elektronische-unterschrift "mention") finden Sie im verlinkten Artikel.
 
 Um QES mit DocuSign nutzen zu können müssen Sie eine entsprechende "Identitätsüberprüfung" in Ihrem DocuSign Account haben.\
-[Mehr Details dazu finden Sie hier bei DocuSign direkt](https://support.docusign.com/s/document-item?language=de\&rsc\_301=\&bundleId=pik1583277475390\&topicId=eya1583277454804.html&\_LANG=dede).
+[Mehr Details dazu finden Sie hier bei DocuSign direkt](https://support.docusign.com/s/document-item?language=de\&rsc_301=\&bundleId=pik1583277475390\&topicId=eya1583277454804.html&_LANG=dede).
 
 Um diese integriert Nutzen zu können müssen Sie den genauen Namen im 6. Schritt (Anleitung oben) eingeben.\
 Den genauen Namen können Sie bei DocuSign unter **Einstellungen** > **Identitätsüberprüfung** sehen, wo sie die passende Identitätsüberprüfung aus der Liste auswählen können und diese dann so markieren und kopieren können:
@@ -49,7 +49,7 @@ Geben Sie, wie bei der regulären QES Identitätsüberprüfung, den Namen der Id
 
 Die Einstellungen könnten z.B. so aussehen:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Beispielhafte QES Alternative Identitätsüberprüfung Einstellungen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Beispielhafte QES Alternative Identitätsüberprüfung Einstellungen</p></figcaption></figure>
 
 In dem Fall nutzen alle Unterzeichner die Identitätsüberprüfung **IDV Premier Selfie Ident**, _außer_ die Unterzeichner die in ihrer E-Mail **@wodis-wohnau.de** enthalten haben, diese nutzen **IDNow (Video Ident)**.
 
@@ -71,7 +71,7 @@ Entsprechend sollte der Betreff und Text möglichst generisch sein, sodass diese
 
 ### Marken Nutzung
 
-Wenn Sie in DocuSign eine Marke erstellt haben ([mehr Details](https://support.docusign.com/s/document-item?language=de\&bundleId=pik1583277475390\&topicId=lfr1583277366660.html&\_LANG=dede)), können Sie die ID der Marke, die Sie für alle Umschläge nutzen wollen, die mit der Digitalen Signatur versendet werden, in der **Marken ID** Einstellung hinzufügen.
+Wenn Sie in DocuSign eine Marke erstellt haben ([mehr Details](https://support.docusign.com/s/document-item?language=de\&bundleId=pik1583277475390\&topicId=lfr1583277366660.html&_LANG=dede)), können Sie die ID der Marke, die Sie für alle Umschläge nutzen wollen, die mit der Digitalen Signatur versendet werden, in der **Marken ID** Einstellung hinzufügen.
 
 Die Marken ID finden Sie hier in DocuSign:
 
