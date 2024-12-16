@@ -6,7 +6,11 @@ Mit der Migration von der Digitalen Unterschrift zu Aareon Connect, wird die Ver
 
 Dies ermöglicht die Migration zu [scrive-technologie-partner.md](scrive-technologie-partner.md "mention"), wodurch wir Ihnen neue Funktionen anbieten können ([#vorteile-scrive](scrive-technologie-partner.md#vorteile-scrive "mention")).
 
-Als **DocuSign Bestandskunde** können Sie bis auf weiteres weiterhin DocuSign für die Digitale Unterschrift nutzen und müssen einmalig folgende Schritte für die Migration durchführen:
+Als **DocuSign Bestandskunde** können Sie bis auf weiteres weiterhin DocuSign für die Digitale Unterschrift nutzen und müssen einmalig folgende Schritte für die Migration durchführen.
+
+Die Schritte und möglichen Einstellungen sind dabei auch in diesem Video zusammengefasst:
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.loom.com/share/8531337f269c44f2a4cd506b84fd16a5?sid=2bc293ed-8459-42d8-8820-0fc2a1a12012">KLICKEN SIE HIER</a> - Dabei wird Loom in einem neuem Tab, außerhalb von Aareon Connect, geöffnet</p></figcaption></figure>
 
 1. Öffnen Sie Aareon Connect in Ihrem ERP System ([mehr Details](../../#aareon-connect-per-video-verstehen))
 2. Gehen Sie auf **DocuSign**
