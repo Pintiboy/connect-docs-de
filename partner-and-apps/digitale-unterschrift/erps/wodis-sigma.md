@@ -1,6 +1,6 @@
 # Wodis Sigma
 
-Initiale Einrichtung
+## Initiale Einrichtung
 
 ### Lizenzen Einlesen
 
@@ -190,15 +190,22 @@ Sie können die Dokumenten-ID auch direkt während der Aktivitäten Erstellung i
 4. Geben Sie die notierte Nummer ein und klicken Sie auf **Suchen**.
 5. Neben **Dokumentauswahl** klicken Sie auf das **+** und dann auf **Übernehmen**.
 6. Unter **Digitale Signaturanker** sehen Sie das automatische Auslesen und die Zuordnung der Anchors
-7. _Optional:_ Geben Sie unter **Email-Adresse für vor Ort Unterschrift** eine E-Mail Adresse (z.B. E-Mail die auf einem iPad angezeigt wird) ein, damit ein Mieter direkt vor Ort unterschreiben kann. Fügen Sie hinter dem Unterzeichner-Tag des Mieters ein Komma, ein Leerzeichen und „vor Ort“ ein.\
-   Mehr Details zur [#vor-ort-unterschrift](../scrive-technologie-partner.md#vor-ort-unterschrift "mention")
-8.  _Optional:_ Geben Sie unter **E-Mail Adressen für Beobachter** eine oder mehrere E-Mail Adressen kommasepariert ein, welche als Beobachter zu dem Umschlag hinzugefügt werden (ähnlich wie jemanden in einer E-Mail CC nehmen).
+7. Gehen Sie dann zurück zu **Aufgabe**
+8. Dort können Sie in den oberen Bereichen folgende Einstellungen vornehmen:
+   1. Wählen Sie eine Authentifizierungsart unter **Authentifizierung zum Signieren**
+      1. Für "Standard" können Sie das Feld auch leer lassen
+   2. _Optional:_ Geben Sie unter **Email-Adresse für vor Ort Unterschrift** eine E-Mail Adresse (z.B. E-Mail die auf einem iPad angezeigt wird) ein, damit ein Mieter direkt vor Ort unterschreiben kann. Fügen Sie hinter dem Unterzeichner-Tag des Mieters ein Komma, ein Leerzeichen und „vor Ort“ ein.\
+      Mehr Details zur [#vor-ort-unterschrift](../scrive-technologie-partner.md#vor-ort-unterschrift "mention")
+   3.  _Optional:_ Geben Sie unter **E-Mail Adressen für Beobachter** eine oder mehrere E-Mail Adressen kommasepariert ein, welche als Beobachter zu dem Umschlag hinzugefügt werden (ähnlich wie jemanden in einer E-Mail CC nehmen).
 
-    Diese Empfänger werden dann per E-Mail über den Vorgang informiert und können sich den Umschlag in Scrive / DocuSign ansehen, aber nicht unterschreiben.
-9. Wählen Sie eine Authentifizierungsart unter **Authentifizierung zum Signieren**
-10. Die Unterschrifts-Reihenfolge wird mit den letzten Zahlen jeder Zeile angegeben. Diese können Sie frei bearbeiten.
-    1. Standardmäßig haben alle externen Unterzeichner die Reihenfolge 1 und alle internen Unterzeichner die Reihenfolge 2.
-11. Klicken Sie auf **Speichern**, um die Aktivität abzuspeichern und das Dokument zu versenden.
+       Diese Empfänger werden dann per E-Mail über den Vorgang informiert und können sich den Umschlag in Scrive / DocuSign ansehen, aber nicht unterschreiben.
+9. In dem Freitextfeld dadrunter werden die Unterzeichner angezeigt:
+   1. Hinter dem $-Zeichen steht der interne Unterzeichner. Hinter dem §-Zeichen steht der externe Unterzeichner.
+   2. Es können auch Änderungen vorgenommen werden (z.B. Tippfehler bei der E-Mail-Adresse wird jetzt festgestellt, oder es soll eine andere Mobilnummer verwendet werden)
+   3. Sie können zudem neue Unterzeichner hinzufügen. Bei internen Unterzeichner geben Sie dafür einfach das $-Zeichen gefolgt von dem Kürzel des Mitarbeiters an und klicken Sie danach in die **Betreff** Zeile, dadurch werden die Informationen des Mitarbeiters automatisch ausgefüllt
+   4. Die Unterschrifts-Reihenfolge wird mit den letzten Zahlen jeder Zeile angegeben. Diese können Sie frei bearbeiten.
+      1. Standardmäßig haben alle externen Unterzeichner die Reihenfolge 1 und alle internen Unterzeichner die Reihenfolge 2.
+10. Klicken Sie auf **Speichern**, um die Aktivität abzuspeichern und das Dokument zu versenden.
 
 {% hint style="warning" %}
 Der Wert für den **Aufgabenstatus** der Aktivität muss leer gelassen werden.

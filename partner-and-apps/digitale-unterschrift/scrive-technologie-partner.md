@@ -72,17 +72,19 @@ Das Scrive Design können sie in wenigen Schritten auf das Branding Ihres Untern
 
 Erweitertes Branding (white labeling) beinhaltet die folgenden zusätzlichen Optionen:
 
-1. Nutzen sie Ihre eigene **Firmenname in der Sub-Domain**, z.B. www.{firmenname}.scrive.com
-2. **SMS-Absender** mit Ihrem Firmenname: Der Name, der dem Empfänger beim Empfang einer SMS angezeigt wird. Maximal 11 alphanumerische Zeichen.
-3. **E-Mail-Absender** mit Ihrem Firmennamen: Der Firmenname, der dem Empfänger beim Empfang von E-Mails angezeigt kann geändert werden.\
-   Beispiel: Ändert die Zeichenfolge "Max Müller über Scrive" in > "Max Müller über {Firmenname}"
+1. Nutzen sie Ihre eigene **Firmenname in der Sub-Domain**, z.B. `{firmenname}.scrive.com`
+   1. Mit "Custom URL", können Sie zudem Scrive auf ihrer eigenen Domain laufen lassen, z.B. `unterschrift.{firmenname}.de`
+2. **SMS-Absendername** mit Ihrem Firmenname: Der Name, der dem Empfänger beim Empfang einer SMS angezeigt wird. Maximal 11 alphanumerische Zeichen.
+3. **E-Mail-Absendername** mit Ihrem Firmennamen: Der Firmenname, der dem Empfänger beim Empfang von E-Mails angezeigt kann geändert werden.\
+   Beispiel: Ändert die Zeichenfolge "Max Müller über Scrive" in > "Max Müller über {Firmenname}"\
+   &#xNAN;_&#x48;inweis_: Die E-Mail Adresse selber kann nicht geändert werden.
 
 {% hint style="info" %}
 {Firmenname} wird bei erweitertem Branding durch Ihren individuellen Namen ersetzt. Im Basis-Branding würde dort immer Scrive stehen, der Name der Unterschrifts-Lösung.
 {% endhint %}
 
 {% hint style="warning" %}
-Erweitertes Branding ist mit **Zusatzkosten** verbunden und muss gesondert **beantragt werden**.
+Erweitertes Branding und Custom URL ist mit **Zusatzkosten** verbunden und muss gesondert **beantragt werden**.
 {% endhint %}
 
 ### 3. Nutzer Einladen
