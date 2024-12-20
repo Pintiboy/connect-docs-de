@@ -56,5 +56,5 @@ Yarowa ist eine SaaS-Lösung, die speziell für Immobilienunternehmen entwickelt
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/tickets.md)
+* [Allgemeine Informationen](../use-cases/crm/tickets.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1996564035#gid=1996564035)

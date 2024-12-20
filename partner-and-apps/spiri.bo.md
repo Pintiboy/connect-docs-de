@@ -9,7 +9,7 @@ description: >-
 ## Übersicht
 
 * **Kategorien**: [Mieterkommunikation](../kategorien/mieterkommunikation.md)
-* **Use Cases**: [Stammdaten](spiri.bo.md#stammdaten), [Tickets](../use-cases/tickets.md), [Dokumente](../use-cases/dokumente.md)
+* **Use Cases**: [Stammdaten](spiri.bo.md#stammdaten), [Tickets](../use-cases/crm/tickets.md), [Dokumente](../use-cases/digitales-buro/dokumente.md)
 * **Marketplace**: [Spiri.Bo](https://marketplace.aareon.com/de/listings/spiribo)
 * **API Dokumentation**: [Link](https://api.spiri.bo/v1/docs/silo)
 
@@ -20,7 +20,7 @@ Spiri.Bo ist ein PropTech-Unternehmen der meravis Immobiliengruppe. Spiri.Bo dig
 ## Mit Spiri.Bo verbinden
 
 1. Um einen Spiri.Bo-Use-Case zu nutzen benötigen Sie zur Aktivierung die **Spiri.Bo API Zugansdaten**. Diese erhalten Sie folgendermaßen:
-   1. Fordern Sie per Email an [dev+api-key@spiri.bo](mailto:dev+api-key@spiri.bo) mit dem Betreff "API-Key Aareon Connect" den API Key an.&#x20;
+   1. Fordern Sie per Email an [dev+api-key@spiri.bo](mailto:dev+api-key@spiri.bo) mit dem Betreff "API-Key Aareon Connect" den API Key an.
 2. Nachdem Sie Aareon Connect Kunde geworden sind, können Sie die verfügbaren **Spiri.Bo Integrationen innerhalb Ihres ERP-Systems** auswählen und aktivieren.
 
 ## Use Cases
@@ -89,7 +89,7 @@ Da die Nutzungsart im ERP System frei definierbar ist, wird das Mapping laufend 
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/tickets.md)
+* [Allgemeine Informationen](../use-cases/crm/tickets.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1996564035#gid=1996564035)
 
 Die Aareon Connect Integration für das Übertragen von Meldungen aus Spiri.bo ins ERP besteht us 4 Komponenten:
@@ -102,7 +102,7 @@ Die Aareon Connect Integration für das Übertragen von Meldungen aus Spiri.bo i
 3. **Forms Synchronisation**\
    Dieser Teil der Integration synchronisiert neu angelegte Formulare (Anfragen, Lärmbeschwerden, etc.) aus Spiri.bo in das ERP.
 4. **Update Kontakt Informationen**\
-   Der letzte Teil der Integration leitet Änderungen von Kontaktinformationen (Telefonnummern) aus Spiri.bo an das ERP weiter.&#x20;
+   Der letzte Teil der Integration leitet Änderungen von Kontaktinformationen (Telefonnummern) aus Spiri.bo an das ERP weiter.
 
 **Einstellungen**
 
@@ -116,13 +116,11 @@ Damit die Synchronisation von Meldungen, Formularen und Kontaktänderungen im ER
 
 Je nach Einstellung im ERP kann es vorkommen, dass Meldungen nicht direkt angezeigt werden. Fragen Sie hierzu Ihren ERP berater, wie häufig temporäre Meldungen temporäre Meldungen aus der Datenbank ins ERP übertragen werden.
 
-
-
 ### 3. Dokumente
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/dokumente.md)
+* [Allgemeine Informationen](../use-cases/digitales-buro/dokumente.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=136836836#gid=136836836)
 
 #### Entitäten
@@ -137,7 +135,7 @@ Je nach Einstellung im ERP kann es vorkommen, dass Meldungen nicht direkt angeze
 
 Im Zuge der Aktivierung des Dokumenten Use Cases, können Sie folgende Einstellungen nutzen:
 
-<table><thead><tr><th width="151">Name</th><th width="487.33333333333326">Beschreibung</th><th>Optionen</th></tr></thead><tbody><tr><td>Separator für zusammengesetzte IDs</td><td>Dieser Separator wird genutzt um die IDs in dem Partner System aus den ERP Nummern zusammenzusetzen, sodass die IDs eindeutig sind.</td><td><code>-</code>, <code>_</code>, <code>.</code>, <code>/</code>, <code>|</code></td></tr><tr><td>Relevante Archiv Namen </td><td>Namen der Archive von welchen Dokumente übertragen werden sollen. </td><td></td></tr><tr><td>Wirtschaftseinheits Index Name</td><td>Index Name der Wirtschaftseinheitsnummer. </td><td></td></tr><tr><td>Gebäude Index Name</td><td>Index Name der Gebäudenummer. </td><td></td></tr><tr><td>Verwaltungseinheits Index Name</td><td>Index Name der Verwaltungseinheitsnummer. </td><td></td></tr><tr><td>Mietvertrags Index Name</td><td>Index Name der Mietvertragsnummer. </td><td></td></tr></tbody></table>
+<table><thead><tr><th width="151">Name</th><th width="487.33333333333326">Beschreibung</th><th>Optionen</th></tr></thead><tbody><tr><td>Separator für zusammengesetzte IDs</td><td>Dieser Separator wird genutzt um die IDs in dem Partner System aus den ERP Nummern zusammenzusetzen, sodass die IDs eindeutig sind.</td><td><code>-</code>, <code>_</code>, <code>.</code>, <code>/</code>, <code>|</code></td></tr><tr><td>Relevante Archiv Namen</td><td>Namen der Archive von welchen Dokumente übertragen werden sollen.</td><td></td></tr><tr><td>Wirtschaftseinheits Index Name</td><td>Index Name der Wirtschaftseinheitsnummer.</td><td></td></tr><tr><td>Gebäude Index Name</td><td>Index Name der Gebäudenummer.</td><td></td></tr><tr><td>Verwaltungseinheits Index Name</td><td>Index Name der Verwaltungseinheitsnummer.</td><td></td></tr><tr><td>Mietvertrags Index Name</td><td>Index Name der Mietvertragsnummer.</td><td></td></tr></tbody></table>
 
 #### Voraussetzungen
 
@@ -145,5 +143,4 @@ Im Zuge der Aktivierung des Dokumenten Use Cases, können Sie folgende Einstellu
 
 #### Besonderheiten
 
-* Der Use Case enthält 2 Integrationen die beide aktiviert werden müssen&#x20;
-
+* Der Use Case enthält 2 Integrationen die beide aktiviert werden müssen

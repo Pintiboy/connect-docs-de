@@ -71,7 +71,7 @@ Werden bei einem API Zugang für Aareon Connect neue Objekte hinzugefügt, Ä
 * Nicht synchronisiert werden Dokumente, die
   * mit Adressen verknüpft sind
   * keine Ordnerzuordnung haben
-  * größer als 50MB sind ([allgemeine Einschränkung des Dokumenten Use Cases](../use-cases/dokumente.md#einschraenkungen) für alle ERPs)
+  * größer als 50MB sind ([allgemeine Einschränkung des Dokumenten Use Cases](../use-cases/digitales-buro/dokumente.md#einschraenkungen) für alle ERPs)
 * Der Freigabestatus von Dokumenten wird aktuell nicht übermittelt, stattdessen werden alle synchronisierten Dokumente werden als "nicht freigegeben" behandelt
 
 #### API Dokumentfreigaben

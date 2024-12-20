@@ -27,7 +27,7 @@ KIWI bietet einfachen digitalen Zugang für Mehrfamilienhäuser. Wir machen phys
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/stammdaten.md)
+* [Allgemeine Informationen](../use-cases/allgemein/stammdaten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1022321755#gid=1022321755)
 
 #### Entitäten

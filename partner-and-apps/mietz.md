@@ -3,7 +3,7 @@
 ## Übersicht
 
 * **Kategorien**: [Interessentenmanagement](../kategorien/interessentenmanagement.md)
-* **Use Cases**: [Stammdaten](../use-cases/stammdaten.md)
+* **Use Cases**: [Stammdaten](../use-cases/allgemein/stammdaten.md)
 * **Marketplace**: [Mietz](https://marketplace.aareon.com/de/listings/mietz)
 * **API Dokumentation**:&#x20;
 

@@ -30,7 +30,7 @@ iDWELL hat sich zum Ziel gesetzt, den Digitalisierungstrend in die traditionsrei
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/stammdaten.md)
+* [Allgemeine Informationen](../use-cases/allgemein/stammdaten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1022321755#gid=1022321755)
 
 #### Entitäten
@@ -70,7 +70,7 @@ Bitte überprüfen Sie bei den Mietern, sowie Eigentümern, die Reiter Kontaktda
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/dokumente.md)
+* [Allgemeine Informationen](../use-cases/digitales-buro/dokumente.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=136836836#gid=136836836)
 
 In iDWELL lassen sich Dokumente mit Objekte, Einheiten, Eigentümern und Mietern verknüpfen. Zusätzlich werden in iDWELL Ordner für die Dokumente angelegt.

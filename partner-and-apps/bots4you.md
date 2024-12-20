@@ -10,7 +10,7 @@ description: >-
 ## Übersicht
 
 * **Kategorien**: [Mieterkommunikation](../kategorien/mieterkommunikation.md), [Reporting](../kategorien/reporting.md), [Dokumentenmanagement](../kategorien/dokumentenmanagement.md)
-* **Use Cases**: [Stammdaten](../use-cases/stammdaten.md), [Tickets](../use-cases/tickets.md)
+* **Use Cases**: [Stammdaten](../use-cases/allgemein/stammdaten.md), [Tickets](../use-cases/crm/tickets.md)
 * **Marketplace**: [Bots4You](https://marketplace.aareon.com/de/listings/bots4you)
 
 ## Beschreibung
@@ -57,7 +57,7 @@ Im Zuge der Aktivierung des Stammdaten Use Cases, können Sie folgende Einstellu
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/tickets.md)
+* [Allgemeine Informationen](../use-cases/crm/tickets.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1996564035#gid=1996564035)
 
 Die Ticket Kategorien werden nur vom ERP zu Bots4You übertragen.

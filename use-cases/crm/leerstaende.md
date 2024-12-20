@@ -6,14 +6,10 @@ description: Synchronisierung von leerstehenden Einheiten aus dem ERP in das Par
 
 ## Übersicht
 
-* **Interval**: Maximal Stündlich
-* **Richtung**: ERP -> Partnersystem
+* **Interval**: Maximal Stündlich / Echtzeit (via Webhook)
+* **Richtung**: ERP → Partnersystem
 * **Entitäten**:
-  * [Leerstände](../entitaeten/leerstaende.md)
-* **Partner**:
-  * [Immomio](../partner-and-apps/immomio.md)
-  * [Wohnungshelden](../partner-and-apps/immomio.md)
-  * [EverReal](../partner-and-apps/everreal.md)
+  * [Leerstände](../../entitaeten/leerstaende.md)
 
 ## Wie aktiviere ich die Übertragung von Leerständen an meine Partnerlösung?
 
@@ -32,5 +28,5 @@ Die Synchronisation von Leerständen ermöglicht es Ihnen, **Daten über freie V
 Die Übertragung der Leerstände basiert bei allen ERPs und Partner Lösungen auf dem [OpenImmo 1.2.7b Format](http://www.openimmo.de/go.php/p/24/download.htm).
 
 {% hint style="info" %}
-Bei den Wodis ERPs wird der Interval über das ERP gesteuert ([mehr Details](../erps/wodis-yuneo.md#leerstande-und-interessenten)).
+Bei den Wodis ERPs wird der Interval über das ERP gesteuert ([mehr Details](../../erps/wodis-yuneo.md#leerstande-und-interessenten)).
 {% endhint %}

@@ -29,7 +29,7 @@ Somit öffnen sich Aareon Connect direkt in Wodis Yuneo:
 
 #### Besonderheiten
 
-Die Use Cases [Leerstände](../use-cases/leerstaende.md) und [Interessenten](../use-cases/interessenten.md) werden bei den Wodis ERPs nicht über eine klassische API Schnittstelle abgedeckt, sondern über die, in die ERPs eingebaute, Immoblue Funktion.
+Die Use Cases [Leerstände](../use-cases/crm/leerstaende.md) und [Interessenten](../use-cases/crm/interessenten.md) werden bei den Wodis ERPs nicht über eine klassische API Schnittstelle abgedeckt, sondern über die, in die ERPs eingebaute, Immoblue Funktion.
 
 Dies hat den Vorteil, dass Sie das Mapping zwischen ERP und Partner Lösung ganz individuell bestimmen können.
 

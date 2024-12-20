@@ -7,7 +7,7 @@ description: casavi ist die maßgeschneiderte Lösung für Ihr Wohnungsunternehm
 ## Übersicht
 
 * **Kategorien**: [Handwerkerportal & Auftragsmanagement](../kategorien/handwerkerportal-and-auftragsmanagement.md), [Eigentümerverwaltung](../kategorien/eigentuemerverwaltung.md), [Mieterkommunikation](../kategorien/mieterkommunikation.md)
-* **Use Cases**: [Stammdaten](../use-cases/stammdaten.md)
+* **Use Cases**: [Stammdaten](../use-cases/allgemein/stammdaten.md)
 * **Marketplace**: [casavi](https://marketplace.aareon.com/listings/casavi)
 * **API Dokumentation**: [Link](https://api.mycasavi.com/v2/docs/manager)
 
@@ -31,7 +31,7 @@ casavi ist die zentrale Plattform für die Digitalisierung Ihrer Wohnungsverwalt
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/stammdaten.md)
+* [Allgemeine Informationen](../use-cases/allgemein/stammdaten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1022321755#gid=1022321755)
 
 #### Entitäten

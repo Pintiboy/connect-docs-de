@@ -7,7 +7,7 @@ description: Plentific hilft Immobilienverwaltungen und Wohnungsunternehmen
 ## Übersicht
 
 * **Kategorien**: [Handwerkerportal & Auftragsmanagement](../kategorien/handwerkerportal-and-auftragsmanagement.md), [Mieterkommunikation](../kategorien/mieterkommunikation.md), [Objektübergabe](../kategorien/objektuebergabe.md)
-* **Use Cases**: [Stammdaten](../use-cases/stammdaten.md)
+* **Use Cases**: [Stammdaten](../use-cases/allgemein/stammdaten.md)
 * **Marketplace**: [Plentific](https://marketplace.aareon.com/de/listings/plentific)
 * **API Dokumentation**: [Link](https://dev.plentific.com/api/client/latest)
 
@@ -22,8 +22,6 @@ Plentific ist ein Online-Marktplatz für Haus- und Immobilienbesitzer, der es Be
     1. Klicken Sie auf **Konto** > **API-Schlüssel**
     2. Hier können Sie ihre **Client id** und **Client secret** einsehen oder neu rotieren.
 
-
-
     <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Plentific API Schlüssel</p></figcaption></figure>
 2. Nachdem Sie Aareon Connect Kunde geworden sind, können Sie die verfügbaren **Plentific Integrationen innerhalb Ihres ERP-Systems** auswählen und aktivieren.
 
@@ -33,7 +31,7 @@ Plentific ist ein Online-Marktplatz für Haus- und Immobilienbesitzer, der es Be
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/stammdaten.md)
+* [Allgemeine Informationen](../use-cases/allgemein/stammdaten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1022321755#gid=1022321755)
 
 #### Entitäten
@@ -60,5 +58,5 @@ Im Zuge der Aktivierung des Stammdaten Use Cases, können Sie folgende Einstellu
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/tickets.md)
+* [Allgemeine Informationen](../use-cases/crm/tickets.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1996564035#gid=1996564035)

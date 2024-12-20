@@ -14,11 +14,6 @@ description: >-
   * Archive
   * Ordner
   * Dokumente
-* **Partner**:
-* [casavi.md](../partner-and-apps/casavi.md "mention")
-* [facilioo.md](../partner-and-apps/facilioo.md "mention")
-* [idwell.md](../partner-and-apps/idwell.md "mention")
-* [spiri.bo.md](../partner-and-apps/spiri.bo.md "mention")
 
 ## Beschreibung
 

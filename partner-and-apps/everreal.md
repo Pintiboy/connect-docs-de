@@ -7,7 +7,7 @@ description: Die digitale B2B Software für Immobilienvermietung & Verkauf
 ## Übersicht
 
 * **Kategorien**: [Interessentenmanagement](../kategorien/interessentenmanagement.md), [Objektübergabe](../kategorien/objektuebergabe.md), [Reporting](../kategorien/reporting.md)
-* **Use Cases**: [Stammdaten](../use-cases/stammdaten.md)
+* **Use Cases**: [Stammdaten](../use-cases/allgemein/stammdaten.md)
 * **Marketplace**: [EverReal](https://marketplace.aareon.com/de/listings/everreal)
 * **API Dokumentation**: [Link](https://api-docs.everreal.co/endpoints)
 
@@ -30,7 +30,7 @@ EverReal ist eine professionelle B2B Software für digitalen Mieterwechsel und V
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/stammdaten.md)
+* [Allgemeine Informationen](../use-cases/allgemein/stammdaten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1022321755#gid=1022321755)
 
 #### Entitäten
@@ -56,7 +56,7 @@ Im Zuge der Aktivierung des Stammdaten Use Cases, können Sie folgende Einstellu
 #### Übersicht
 
 * [Allgemeine Informationen Leerstände](../entitaeten/leerstaende.md)
-* [Allgemeine Informationen Interessenten](../use-cases/interessenten.md)
+* [Allgemeine Informationen Interessenten](../use-cases/crm/interessenten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1046693259#gid=1046693259)
 
 | ERP                                           | EverReal             |

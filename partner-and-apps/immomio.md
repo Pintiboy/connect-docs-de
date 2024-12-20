@@ -45,7 +45,7 @@ Sollte Ihr Immomio Account über ein altes DIT System laufen, werden sie zusätz
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/stammdaten.md)
+* [Allgemeine Informationen](../use-cases/allgemein/stammdaten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1022321755#gid=1022321755)
 
 #### Entitäten
@@ -74,7 +74,7 @@ Sollte Ihr Immomio Account über ein altes DIT System laufen, werden sie zusätz
 #### Übersicht
 
 * [Allgemeine Informationen Leerstände](../entitaeten/leerstaende.md)
-* [Allgemeine Informationen Interessenten](../use-cases/interessenten.md)
+* [Allgemeine Informationen Interessenten](../use-cases/crm/interessenten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1046693259#gid=1046693259)
 
 | ERP                                           | Immomio              |

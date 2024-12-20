@@ -9,7 +9,7 @@ description: >-
 ## Übersicht
 
 * **Kategorien**: [Interessentenmanagement](../kategorien/interessentenmanagement.md)
-* **Use Cases**: [Leerstände](../use-cases/leerstaende.md)
+* **Use Cases**: [Leerstände](../use-cases/crm/leerstaende.md)
 * **Marketplace**: [Wohnungshelden](https://marketplace.aareon.com/de/listings/wohnungshelden)
 
 ## Beschreibung
@@ -28,7 +28,7 @@ Wohnungshelden bildet den kompletten Vermietungsprozess von Anfang bis Ende digi
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/leerstaende.md)
+* [Allgemeine Informationen](../use-cases/crm/leerstaende.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1046693259#gid=1046693259)
 
 #### Entitäten

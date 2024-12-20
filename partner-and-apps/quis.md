@@ -9,7 +9,7 @@ description: >-
 ## Übersicht
 
 * **Kategorien**: [Valuation & Pricing​](../kategorien/valuation-and-pricing.md)
-* **Use Cases**: [Stammdaten](../use-cases/stammdaten.md)
+* **Use Cases**: [Stammdaten](../use-cases/allgemein/stammdaten.md)
 * **Marketplace**: [Quis](https://marketplace.aareon.com/de/listings/quis)
 * **API Dokumentation**: [Link](https://developer.quis.de/)
 
@@ -35,7 +35,7 @@ QUIS ist entstanden aus der Analyse & Konzepte Beratungsgesellschaft und nutzt s
 
 #### Übersicht
 
-* [Allgemeine Informationen](../use-cases/stammdaten.md)
+* [Allgemeine Informationen](../use-cases/allgemein/stammdaten.md)
 * [Feld Mapping](https://docs.google.com/spreadsheets/d/1fLwCGcttemtlDpznO3O00352cZZ5SPJXBPv6IRWQ6Bk/edit?gid=1022321755#gid=1022321755)
 
 #### Entitäten
