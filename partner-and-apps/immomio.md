@@ -142,4 +142,54 @@ Mieter in Immomio anlegen zum prüfen:
    3. “Als Mieter akzeptieren” clicken
    4. Resultat: Der Mieter wird nun von der Integration synchronisiert
 
+#### Voraussetzungen
+
+1. Die Leerstände müssen mit einer Nettokaltmiete übertragen werden
+
+### 3. Tickets / Aktivitäten und Schadensmeldungen
+
+#### Übersicht
+
+* [Allgemeine Informationen Aktivitäten und Schadensmeldungen](../use-cases/crm/tickets.md)
+
+Die bi-direktionale Aktivitäten und Schadensmeldungsintegration erlaubt die Erstellung von Damages und Anliegen in Immomio, welche anschließend ins ERP gesendet werden. Je nachdem welche Kategorie vom Benutzer beim Anlegen eines Anliegen in Immomio ausgewählt wird, wird der Aktivitätstyp  Anhänge aus Immomio werden auch ins ERP übertragen. Hierzu wird die Datei im Archiv gespeichert und anschließend mit der Aktivität verknüpft. Wenn der Sachbearbeiter die Aktivität im ERP bearbeitet indem der Status angepasst wird oder ein Kommentar verfasst wird, wird dies in Immomio angezeigt.&#x20;
+
+#### Einstellungen
+
+| Name                               | Beschreibung                                                                                                                             | Optionen                 |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| Separator für zusammengesetzte IDs | Dieser Separator zwischen der Nummer der Mandanten, Wirtschaftseinheinten, Gebäuden und Einheiten und wird in Immomio als ID angezeigt.  | `-`, `_`, `.`, `/`, `\|` |
+
+#### Voraussetzungen
+
+1. **Archive für Anhänge an Aktivitäten**\
+   Damit Ihre Anhänge von Immomio Anliegen und Schäden in Ihr ERP übertragen werden können, müssen sie:
+   1. ein Archiv dafür anlgen und uns den Namen mitteilen (z.B. 'Mieter App')
+   2. das Archiv 'Mieter App' im Aktivitätenmanagement verknüpfen
+2. Sie müssen die **Aktivitätstypen** bestimmen, welche in Immomio verfügbar sein sollen und die Pflichtmerkmale dieser Aktivitätstypen auf NICHT verpflichtend einstellen
+3. Damit die Mieter in Immomio einen passenden Fragebogen durchlaufen, wenn sie Schäden oder Anliegen erstellen, brauchen wir einen **Anliegen Fragen Katalog**. Hierzu können Sie sich an folgendem Beispiel orientieren. **Example Excel**
+4. Wir brauchen die **ERP API Benutzernamen**.
+
+### 4. Dokumente
+
+Wichtige Dokumente wie Mietverträge, Betriebskostenabrechnungen oder Mietbescheinigungen können nahtlos zwischen den Plattformen synchronisiert werden. Dafür werden die gewünschten Archive mit Immomio verbunden, sodass Dokumente automatisch übertragen und für Mieter zugänglich gemacht werden.
+
+Sobald ein Archiv mit Immomio verknüpft ist, werden alle darin gespeicherten Dokumente automatisch synchronisiert. Beispielsweise können Sie das Archiv "MI Mietvertrag" anbinden, um sicherzustellen, dass alle Mietverträge ohne manuellen Aufwand für den jeweiligen Mieter abrufbar sind.
+
+Diese Integration wird oft in Kombination mit [Tickets](immomio.md#id-3.-tickets-aktivitaten-und-schadensmeldungen) genutzt. Diverse Ticketkategorien lösen Prozesse aus woraufhin Dokumente mit dem Mieter geteilt werden sollen. Damit diese angefragten Dokumente automatisch nach Immomio gesendet werden, müssen die entsprechenden Archive angebunden werden.
+
+#### Einstellungen
+
+| Name                                  | Beschreibung                                                                                                                             | Optionen                 |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| Archive die angebunden werden sollens | Welche Archive sollen angebunden werden                                                                                                  | `Archivnamen`            |
+| Suchkategorien                        | Welche Suchkategorien sind relevant                                                                                                      | `Suchkategorien`         |
+| Separator für zusammengesetzte IDs    | Dieser Separator zwischen der Nummer der Mandanten, Wirtschaftseinheinten, Gebäuden und Einheiten und wird in Immomio als ID angezeigt.  | `-`, `_`, `.`, `/`, `\|` |
+
+#### Voraussetzungen
+
+1. Das gewünschte Archiv muss mit dem **Mietvertrag verknüpft** sein (Mietvertragsnummerindex), damit die Dokumente zugeordnet werden können. Achtung: Es werden alle Dokumente eines Archives übertragen, sodass Sie vorher prüfen sollten, ob alle enthaltenen Dokumente vom Mieter gesehen werden sollen.
+
+
+
 [^1]: (Link zu ERP overview)
