@@ -66,8 +66,8 @@ Sollte Ihr Immomio Account über ein altes DIT System laufen, werden sie zusätz
 
 #### Voraussetzungen
 
-* Es werden nur Mieter mit einer hinterlegten E-Mail Adresse synchronisiert
-  * Mietverträge von Mietern, die dies nicht erfüllen, werden ebenfalls nicht synchronisiert
+1. Es werden nur Mieter mit einer hinterlegten E-Mail Adresse synchronisiert, weil keine User erstellt werden können.
+2. Wir brauchen einen ERP User der "IMMOMIO" genannt wird, über den die Integration läuft.
 
 ### 2. Leerstände & Interessenten
 
@@ -152,7 +152,7 @@ Mieter in Immomio anlegen zum prüfen:
 
 * [Allgemeine Informationen Aktivitäten und Schadensmeldungen](../use-cases/crm/tickets.md)
 
-Die bi-direktionale Aktivitäten und Schadensmeldungsintegration erlaubt die Erstellung von Damages und Anliegen in Immomio, welche anschließend ins ERP gesendet werden. Je nachdem welche Kategorie vom Benutzer beim Anlegen eines Anliegen in Immomio ausgewählt wird, wird der Aktivitätstyp  Anhänge aus Immomio werden auch ins ERP übertragen. Hierzu wird die Datei im Archiv gespeichert und anschließend mit der Aktivität verknüpft. Wenn der Sachbearbeiter die Aktivität im ERP bearbeitet indem der Status angepasst wird oder ein Kommentar verfasst wird, wird dies in Immomio angezeigt.&#x20;
+Die bi-direktionale Aktivitäten und Schadensmeldungsintegration erlaubt die Erstellung von Schäden und Anliegen in Immomio, welche anschließend ins ERP gesendet werden. Je nachdem welche Kategorie vom Benutzer beim Anlegen eines Anliegens in Immomio ausgewählt wird, wird der Aktivitätstyp ‘Anhänge’ aus Immomio auch ins ERP übertragen. Hierzu wird die Datei im Archiv gespeichert und anschließend mit der Aktivität verknüpft. Wenn der Sachbearbeiter die Aktivität im ERP bearbeitet, indem der Status angepasst wird oder ein Kommentar verfasst wird, wird dies in Immomio angezeigt.
 
 #### Einstellungen
 
@@ -168,7 +168,7 @@ Die bi-direktionale Aktivitäten und Schadensmeldungsintegration erlaubt die Ers
    2. das Archiv 'Mieter App' im Aktivitätenmanagement verknüpfen
 2. Sie müssen die **Aktivitätstypen** bestimmen, welche in Immomio verfügbar sein sollen und die Pflichtmerkmale dieser Aktivitätstypen auf NICHT verpflichtend einstellen
 3. Damit die Mieter in Immomio einen passenden Fragebogen durchlaufen, wenn sie Schäden oder Anliegen erstellen, brauchen wir einen **Anliegen Fragen Katalog**. Hierzu können Sie sich an folgendem Beispiel orientieren. **Example Excel**
-4. Wir brauchen die **ERP API Benutzernamen**.
+4. Wir brauchen die **ERP API Benutzernamen**, welche Sie bereits im Zuge der Stammdatenintegration für Aareon Connect erstellt hat.
 
 ### 4. Dokumente
 
