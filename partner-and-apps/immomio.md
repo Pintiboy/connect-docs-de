@@ -166,9 +166,14 @@ Die bi-direktionale Aktivitäten und Schadensmeldungsintegration erlaubt die Ers
    Damit Ihre Anhänge von Immomio Anliegen und Schäden in Ihr ERP übertragen werden können, müssen sie:
    1. ein Archiv dafür anlgen und uns den Namen mitteilen (z.B. 'Mieter App')
    2. das Archiv 'Mieter App' im Aktivitätenmanagement verknüpfen
-2. Sie müssen die **Aktivitätstypen** bestimmen, welche in Immomio verfügbar sein sollen und die Pflichtmerkmale dieser Aktivitätstypen auf NICHT verpflichtend einstellen
-3. Damit die Mieter in Immomio einen passenden Fragebogen durchlaufen, wenn sie Schäden oder Anliegen erstellen, brauchen wir einen **Anliegen Fragen Katalog**. Hierzu können Sie sich an folgendem Beispiel orientieren. **Example Excel**
+2. Sie müssen die **Aktivitätstypen** bestimmen, welche in Immomio verfügbar sein sollen und die Pflichtmerkmale dieser Aktivitätstypen auf NICHT verpflichtend einstellen.
+3. Schäden und Anliegen.
 4. Wir brauchen die **ERP API Benutzernamen**, welche Sie bereits im Zuge der Stammdatenintegration für Aareon Connect erstellt hat.
+5. Damit die Mieter in Immomio einen passenden Fragebogen durchlaufen, wenn sie Schäden oder Anliegen erstellen, brauchen wir Ihren **Anliegen und Schaden Fragen Katalog**. Hierzu können Sie sich an folgenden Beispielen orientieren:
+
+{% file src="../.gitbook/assets/activitätenBeispiel.xlsx" %}
+
+{% file src="../.gitbook/assets/damagesBeispiel.xlsx" %}
 
 ### 4. Dokumente
 
