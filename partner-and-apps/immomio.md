@@ -172,6 +172,10 @@ Die bi-direktionale Aktivitäten und Schadensmeldungsintegration erlaubt die Ers
 
 ### 4. Dokumente
 
+**Übersicht**
+
+* [Allgemeine Informationen Dokumente](../use-cases/digitales-buro/dokumente.md)
+
 Wichtige Dokumente wie Mietverträge, Betriebskostenabrechnungen oder Mietbescheinigungen können nahtlos zwischen den Plattformen synchronisiert werden. Dafür werden die gewünschten Archive mit Immomio verbunden, sodass Dokumente automatisch übertragen und für Mieter zugänglich gemacht werden.
 
 Sobald ein Archiv mit Immomio verknüpft ist, werden alle darin gespeicherten Dokumente automatisch synchronisiert. Beispielsweise können Sie das Archiv "MI Mietvertrag" anbinden, um sicherzustellen, dass alle Mietverträge ohne manuellen Aufwand für den jeweiligen Mieter abrufbar sind.
