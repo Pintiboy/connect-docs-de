@@ -91,3 +91,29 @@ Nach Selektion der gewünschten Ordner, sind die Einstellungen zu speichern.
 {% hint style="warning" %}
 Werden nachträglich neue Ordner angelegt, ist bei diesen standardmäßig die Exportoption nicht gesetzt, d. h. diese muss gegebenenfalls direkt nach der Anlage des neuen Ordners gesetzt werden.
 {% endhint %}
+
+### Kreditoren
+
+In diesem use werden **Kreditoren UTS** übertragen. Um sicherzustellen, dass alle Arten von Kreditoren / Gewerken korrekt übernommen werden, muss in UTS ein Gewerkemapping angelegt werden. Dieses Mapping ordnet die in UTS vorhandenen Gewerke den entsprechenden Kreditoren im Zielsystem (zum Beispiel Facilioo) zu.
+
+<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+
+**Schritte zur Durchführung**
+
+1. **Navigieren zum System-Menü**
+   * Öffnen Sie das **System-Menü** (siehe Markierung **1** im Screenshot).
+   * Wählen Sie den Punkt **Datenkonvertierung > Datenimport** aus.
+2. **Selektionskriterien öffnen**
+   * Wechseln Sie im linken Menü zu **Selektionskriterien** (siehe Markierung **2**).
+   * Klicken Sie auf den Button **Mapping** (siehe Markierung **3**).
+3. **Mapping-Bearbeitungsfenster öffnen**
+   * Das Fenster **Mapping Selektionskriterien** wird geöffnet (siehe Markierung **4**).
+   * Hier sehen Sie eine Übersicht über vorhandene Selektionskriterien und deren Zuordnung zu Gewerken.
+4. **Zuordnungen bearbeiten**
+   * In der Tabelle (siehe Markierung **5**) können die Zuordnungen von Bezeichnungen zu Werten eingesehen und angepasst werden.
+   * Beispiele:
+     * _Heizung_ → _Heizungsarbeiten_
+     * _Maler_ → _Maler-, Anstrich-, Lackier- und Tapezierarbeiten_
+     * _Garten_ → _Garten- und Landschaftsarbeiten_
+5. **Änderungen speichern**
+   * Nach der Bearbeitung speichern Sie die Änderungen, um die neuen Zuordnungen zu übernehmen.
