@@ -15,9 +15,9 @@ description: Synchronisierung von leerstehenden Einheiten aus dem ERP in das Par
 
 ### Yuneo & Sigma
 
-Damit Leerstände aus dem ERP an Ihre Partnerlösung übermittelt werden, muss ein Job im ERP eingerichtet werden. Alle wichtigen Informationen zur Übertragung finden Sie im Bereich „Helpdesk“ in Yuneo. Dort erfahren Sie Schritt für Schritt, wie Sie Leerstände in Yuneo pflegen, zur Vermarktung freigeben und mit ansprechenden Multimediadaten wie Bildern ergänzen.
+Damit Leerstände aus dem ERP an Ihre Partnerlösung übermittelt werden, muss ein Job im ERP eingerichtet werden. Alle wichtigen Informationen zur Übertragung finden Sie im Bereich „Helpdesk“ in Yuneo. Dort erfahren Sie Schritt für Schritt, wie Sie Leerstände in Yuneo pflegen, zur Vermarktung freigeben und mit ansprechenden Multimediadaten wie Bildern ergänzen. In Wodis Sigma finden sie im Hilfebereich unter dem Stichwort „Vermarktung“ alle nötigen Informationen.
 
-Sollten Sie Fragen haben, die im Helpdesk nicht beantwortet werden, wenden Sie sich bitte an Ihren ERP-Berater. In Wodis Sigma gibt es leider keinen Helpdesk – hier müssen Sie sich direkt an Ihren ERP-Berater wenden.
+Sollten Sie Fragen haben, die im Helpdesk nicht beantwortet werden, wenden Sie sich bitte an Ihren ERP-Berater.&#x20;
 
 ### GAP, UTS KARTHAGO & RELion
 
