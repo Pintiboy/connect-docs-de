@@ -64,7 +64,7 @@ Dies kann z.B. nützlich sein, wenn Sie für Ihre internen Unterzeichner Video I
 Um SMS PIN mit DocuSign nutzen zu können müssen Sie eine entsprechende "Identitätsüberprüfung" in Ihrem DocuSign Account haben.\
 [Mehr Details dazu finden Sie hier bei DocuSign direkt](https://support.docusign.com/s/document-item?language=de\&rsc_301=\&bundleId=pik1583277475390\&topicId=eya1583277454804.html&_LANG=dede).
 
-Um diese integriert Nutzen zu können müssen Sie den genauen Namen im 5. Schritt (Anleitung oben) eingeben.\
+Um diese integriert Nutzen zu können müssen Sie den genauen Namen im 6. Schritt (Anleitung oben) eingeben.\
 Den genauen Namen können Sie bei DocuSign unter **Einstellungen** > **Identitätsüberprüfung** sehen, wo sie die passende Identitätsüberprüfung aus der Liste auswählen können und diese dann so markieren und kopieren können:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-15 at 17.14.58.png" alt=""><figcaption></figcaption></figure>
