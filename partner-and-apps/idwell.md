@@ -64,9 +64,7 @@ Bitte überprüfen Sie, ob die übertragenen Informationen in den Reitern Info, 
 
 Bitte überprüfen Sie bei den Mietern, sowie Eigentümern, die Reiter Kontaktdaten, Info und Einheiten.
 
-
-
-2. ### Dokumente
+### 2. Dokumente
 
 #### Übersicht
 
@@ -77,12 +75,14 @@ In iDWELL lassen sich Dokumente mit Objekte, Einheiten, Eigentümern und Mietern
 
 #### Einstellungen
 
-**UTS KARTHAGO**
+**ERPs**
 
+UTS KARTHAGO\
 Bei der UTS KARTHAGO Integration für Dokumente können Sie bestimmen für welche Mandanten die Dokumente übertragen werden sollen. Hierzu muss die Mandanten ID / Firmen ID angegeben werden. Zusätzlich lässt sich ein Datumsfilter bestimmen, sodass nur Dokumente ab Tag X synchronisiert werden. Die Integration synchronisiert neben den Dokumenten auch die Ordnerstruktur aus dem ERP nach iDWELL.
 
-**Archiv Kompakt**
+**Archiv**
 
+AAK\
 Bei der AAK Integration für Dokumente müssen Sie folgende Informationen teilen, damit die Integration die Dokumente korrekt überträgt:
 
 * Archiv IDs pro Träger: Welche Archive werden welchem Träger zugeordnet?
@@ -97,3 +97,37 @@ Sie können folgende Archiv IDs angeben.
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 Folglich rufen wir alle Dokumente aus den Archiven 1 & 2 ab und vernküpfen diese in iDWELL mit den entsprechenden Mietern. nach dem gleichen Prinzip verknüpfen wir alle Dokumente aus den Archiven 59, 63 & 65 mit den entsprechenden Objekten in iDWELL. Damit alles korrekt verknüpft werden kann, brauchen wir die Archiv Index Details.&#x20;
+
+### 3. Kreditoren & Rechnungen (Domonda)
+
+Domonda ist eine Finanzmanagement-Plattform, die Buchhaltung, Rechnungsverarbeitung und Liquiditätsmanagement für Unternehmen vereinfacht. Sie automatisiert Buchhaltungsaufgaben, integriert sich mit Banksystemen und bietet Echtzeit-Einblicke in die Finanzen. Die Integration zwischen Domonda und Ihrem ERP synchronisiert Daten in beide Richtungen. Zunächst müssen die Kreditoren, Sachkonten und Objekte nach Domonda importiert werden. Anschließend können Sie Ihre Rechnungen in Domonda durch den Freigabeprozess laufen lassen und sie anschließend automatisch in Ihr ERP senden.
+
+#### Einstellungen
+
+Damit eine Rechnung automatisch nach der Freigabe an Ihr ERP gesendet wird, müssen Sie in Ihrem Domonda Account die Regeln dazu definieren und konfigurieren. Dabei hilft Ihnen ihr Domonda Ansprechpartner.&#x20;
+
+**Details**
+
+* Status-Synchronisation
+  * Wenn in Domonda ein Status gesetzt ist, wird der Status im ERP auf "fertig" gesetzt. Andernfalls bleibt der Status "offen".
+  *   Ist ein Status in Domonda gepflegt wird davon ausgegangen, dass die Rechnung bezahlt ist, sodass die Rechnung im ERP mit dem Lastschrift Kennzeichen versehen wird.
+
+      <figure><img src="https://lh7-qw.googleusercontent.com/docsz/AD_4nXewAiXon7t88g1Zx9owzjC0gEetDqa2NfHod-UCitfNYGbo1DsmuZ53uorWWBX_wee5ad6LlavNWFl9xBnOEsjoA5dZEBAYei3A3VBBby36hACGkVtR8Y342eimwhZ7stZzFq8SiQ?key=xk78K25kLln98yDAbzbvkAqS" alt=""><figcaption></figcaption></figure>
+* Freigabeprozess und Rechnungsstatus
+  * Die Felder "Sachlich OK" und "Rechnerisch OK" werden automatisch bestätigt, wenn eine Rechnung in Domonda den Freigabeprozess durchlaufen ist.
+* Pflege von Paragraph 35a EStG in UTS
+  * Es werden sowohl der HD Typ als auch der Lohnanteil aus Domonda an das ERP übertragen.
+  * Die Zuordnung erfolgt nach folgender Klassifikation:
+    * MARGINAL\_EMPLOYMENT: 1 - §35a EStG Abs. 1 geringfügige Beschäftigung
+    * ENSURED\_EMPLOYMENT
+    * HOUSEHOLD\_SERVICES: 2 - §35a EStG Abs. 2 haushaltsnahe Dienstleistungen
+    * CRAFTSMAN\_SERVICES: 3 - §35a EStG Abs. 3 Handwerkerleistungen
+* Buchungssperre und Zahlungsverkehrssperre
+  * Der Rechnungsbetrag wird auf die jeweilige Position in UTS übertragen.
+  * Wenn der Betrag größer als 0 ist, werden beide Sperren auf False gesetzt.
+  * Andernfalls bleiben sie auf True gesetzt.
+
+
+
+
+
