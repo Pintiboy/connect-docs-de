@@ -8,7 +8,7 @@ description: >-
 
 ## Übersicht
 
-* **Intervall**: 3x pro Woche (Dienstag, Donnerstag, Sonntag)
+* **Intervall**: 5x pro Woche (Montag, Dienstag, Mittwoch, Donnerstag und Freitag) (Für einige wenige Partner erfolgt die Synchronisierung 3x pro Woche)
 * **Richtung**: ERP → Partnersystem
 * **Entitäten**:
   * [Wirtschaftseinheiten](../../entitaeten/wirtschaftseinheiten.md)

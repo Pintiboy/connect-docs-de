@@ -65,7 +65,7 @@ Diese URL ist aus Sicherheitsgründen nur einige Stunden gültig, entsprechend k
 
 #### Besonderheiten
 
-* Die Synchronisierung der Daten in das Partnersystem erfolgt jeden Sonntag, Dienstag, und Donnerstag
+* Die Synchronisierung der Daten in das Partnersystem erfolgt jeden Montag, Dienstag, Mittwoch, Donnerstag und Freitag
 * Die Etagennummer (`unit_floor`) wird wie folgt ermittelt:
 
 | Etage/Lage (Wodis Sigma)    | Etagennummer         | Beispiel                      |

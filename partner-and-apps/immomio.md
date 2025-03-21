@@ -92,6 +92,12 @@ Sollte Ihr Immomio Account über ein altes DIT System laufen, werden sie zusätz
 
 * Die Leerstände müssen mit einer Nettokaltmiete übertragen werden
 
+**FAQ**&#x20;
+
+**Werden alle Mieter als Geschäftspartner zu Sigma übertragen?**
+
+Nein, es wird nur der Hauptmieter als Geschäftspartner zu Sigma übertragen.
+
 #### Test der Integration: Leerstand von ERP nach Immomio
 
 Nachdem Sie die Integration aktiviert haben und die ersten Leerstände in Ihrem Immomio Account zusehen sind, prüfen Sie bitte, ob alle Daten wie gewünscht übertragen wurden. Eine Checkliste dazu finden Sie hier:
