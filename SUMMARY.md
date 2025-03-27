@@ -46,6 +46,7 @@
     * [FAQs Digitale Unterschrift](partner-and-apps/digitale-unterschrift/faqs-digitale-unterschrift.md)
   * [dormakaba](partner-and-apps/dormakaba.md)
   * [Ei Electronics](partner-and-apps/ei-electronics.md)
+  * [Enloc](partner-and-apps/enloc.md)
   * [etg24](partner-and-apps/etg24.md)
   * [EverReal](partner-and-apps/everreal.md)
   * [facilioo](partner-and-apps/facilioo.md)
