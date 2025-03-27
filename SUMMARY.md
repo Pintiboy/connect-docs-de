@@ -28,6 +28,7 @@
   * [BRM](use-cases/brm/README.md)
     * [Ausstattungen](use-cases/brm/ausstattungen.md)
     * [Gebäude Energie](use-cases/brm/gebaude-energie.md)
+  * [Protocols](use-cases/protocols.md)
 * [Partner & Apps](partner-and-apps/README.md)
   * [365.immo](partner-and-apps/365.immo.md)
   * [AktivBo Analytics](partner-and-apps/aktivbo-analytics.md)
