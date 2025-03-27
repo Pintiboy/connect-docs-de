@@ -112,6 +112,12 @@ Sie müssen keine weiteren Einstellungen vornehmen.
 
 Damit die Synchronisation von Meldungen, Formularen und Kontaktänderungen im ERP ankommen, muss Teil 1 ("_Meldungskategorien und -typen Synchronisation_") aus der Übersicht erfüllt sein.
 
+**Anhänge zu Schadensmeldungen hinzufügen**
+
+Anhänge können nicht direkt an eine Schadensmeldung angefügt werden. Um Anhänge zu übertragen, wird von der Integration zunächst eine Aktivität erstellt. Der gewünschte Anhang wird dieser Aktivität hinzugefügt, die anschließend mit der Schadensmeldung verknüpft wird.
+
+Dafür muss ein designierter Aktivitätentyp erstellt oder ausgewählt werden, der dann Aareon Connect mitgeteilt werden muss.
+
 **Achtung**
 
 Je nach Einstellung im ERP kann es vorkommen, dass Meldungen nicht direkt angezeigt werden. Fragen Sie hierzu Ihren ERP berater, wie häufig temporäre Meldungen temporäre Meldungen aus der Datenbank ins ERP übertragen werden.
