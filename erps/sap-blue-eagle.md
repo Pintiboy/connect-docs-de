@@ -12,10 +12,53 @@ Somit öffnen sich Aareon Connect direkt in SAP Blue Eagle:
 
 ## Use Cases
 
+### Zuständige Sachbearbeiter
+
+In SAP ist es möglich an verschiedenen Strukturelementen zuständige Bearbeiter, sowohl externe als auch interne als Geschäftspartner zuzuordnen. Dazu gibt es folgende Einrichtungstabellen:
+
+1\. Einrichtungstabellen
+
+1.1 Geschäftspartner-Rollen (GP -> allg. Einrichtung -> GP-Rollen)
+
+* In SAP werden global GP-Rollen definiert
+
+1.2. WE, Einheit, Vertrag -> Partner
+
+* an den WE,  Einheit oder Vertrag können den GP-Rollen Sachbearbeiter zugeteilt werden
+
+1.3. Tickettypen- GP-Rollen
+
+* bei der Erstellung von Tickets, wird über die Einrichtung der Zuordnung von GP-Rollen an Tickettypen, der hinterlegte SB an der WE, Einheit oder Vertag gefunden und am Ticket eingetragen
+
+1.4 Kreditoren
+
+* an Kreditoren können GP-Rollen ebenso hinterlegt werden
+
+**Darstellung in SAP**
+
+Zu 1.2 an der WE werden GP-Rollen Geschäftspartnern (Sachbearbeitern) zugeordnet
+
+<figure><img src="../.gitbook/assets/GP-Rollen an der WE.png" alt=""><figcaption></figcaption></figure>
+
+Zu 1.3 An den Tickettypen werden GP-Rollen zugeordnet
+
+<figure><img src="../.gitbook/assets/GP-Rollen an Tickets.png" alt=""><figcaption></figcaption></figure>
+
+Zu 1.4 Kreditoren: GP-Rolle zuordnen
+
+<figure><img src="../.gitbook/assets/GP-Rollen an Kreditoren.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;**Kundenabfragen:**
+
+* Welche Geschäftspartnerrollen sollen übertragen werden?
+* Welche Tickettypen sind angelegt?
+* &#x20;Welche GP-Rollen sind den Tickettypen zugeordnet?
+* Werden GP- Rollen auch an der Einheit oder dem Vertrag zugeordnet?
+* Werden GP – Rollen an Kreditoren zugeordnet?
+
 ### Dokumente
 
-Bei Wodis Sigma läuft der Dokumente Use Case immer direkt über die AAK Schnitstelle und nicht über die Wodis Sigma Schnittstelle selber.\
-Deshalb bedarf es für die Nutzung immer eine zusätzliche Einrichtung, wofür wir Sie kontakieren werden.
+
 
 #### Einstellungen
 
