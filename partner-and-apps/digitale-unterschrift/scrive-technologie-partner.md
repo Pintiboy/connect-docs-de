@@ -119,7 +119,7 @@ Nachdem Sie die [#initiale-einrichtung-in-scrive](scrive-technologie-partner.md#
 2. Gehen Sie auf **Scrive**
 3.  Wählen Sie bei der Integration **Digitale Unterschrift mit Scrive** die Umgebung **Production** aus und klicken Sie auf **Autorisieren**
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 4. Sie werden nun auf eine Login von Scrive weitergeleitet wo Sie sich mit dem Scrive Nutzer einloggen (muss ein Admin Nutzer sein), den Sie für die Integration verwenden möchten
    1. Wie in [#3.-nutzer-einladen](scrive-technologie-partner.md#3.-nutzer-einladen "mention") beschrieben, empfehlen wir, dass Sie einen Admin Nutzer speziell für die Integration nutzen um Probleme bei z.B. Passwort Änderung eines regulären Nutzers zu vermeiden
    2. Die Nutzerdaten werden direkt überprüft und bei falschen Informationen erhalten Sie eine Meldung mit weiteren Informationen
@@ -130,15 +130,21 @@ Nachdem Sie die [#initiale-einrichtung-in-scrive](scrive-technologie-partner.md#
 
 Nachdem Sie Ihre Scrive Login Daten hinterlegt haben können Sie im Schritt **Benutzerdefinierte Daten** optionale Einstellungen für die Integration vornehmen.
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 #### Tage bis zum Fälligkeitsdatum
 
 Hier können Sie den Standardwert von 90 Tagen bis zum Fälligkeitsdatum eines Umschlages überschreiben. Wenn Sie das Feld leer lassen, wird 90 Tage benutzt.
 
 Wird das Dokument nach Ablauf dieser konfigurierten Frist nicht unterzeichnet, wird der Vorgang automatisch abgebrochen und die Aufforderung zur Unterzeichnung erlischt.
 
-<figure><img src="../../.gitbook/assets/Arc 2024-12-11 14.15.35.png" alt=""><figcaption></figcaption></figure>
+#### E-Mail Texte
 
+Sie können die E-Mail Texte anpassen, welche in der Einladungs- und Bestätigungs-E-Mail verwendet werden sollen:
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>Der blau markierte Teil kann konfiguriert werden.</p></figcaption></figure>
+
+Dabei können Sie jeweils andere Texte für Unterzeichner und Beobachter definieren. Bei der Bestätigungs-E-Mail wird allerdings der selbe Text für alle Beteiligten verwendet.
 
 ## Ablauf von QES in Scrive
 
