@@ -262,6 +262,19 @@ Der Scrive Support wird die Gruppenstruktur dann für Sie anlegen.
 
 Die Nutzer können Sie dann wie [hier beschrieben](https://helpcenter.scrive.com/kb/guide/en/user-administration-hu176Qf8cO/Steps/1446349,2168971) in die Gruppen einordnen.
 
+## Signaturverlauf
+
+Hier können Sie den Signaturverlauf, von im ERP gestarteten Vorgängen, samt Zeitstempeln nachvollziehen.:
+
+1. Gehen Sie dafür auf [**Flow** > **Vorgänge gestartet**](https://scrive.com/new/flow/started-processes)
+2. Klicken Sie auf den jeweiligen Vorgang (diese könen Sie nach Status filtern)
+3.  Unter **Event log** ist der Signaturverlauf im Detail aufgeführt:\
+
+
+    <figure><img src="../../.gitbook/assets/Arc 2025-04-02 11.15.41.png" alt=""><figcaption></figcaption></figure>
+
+Weitere Informationen finden Sie auch [in der Dokumentation von Scrive](https://helpcenter.scrive.com/kb/guide/en/track-flow-signing-process-7jS15Delax/Steps/2814156).
+
 ## Standalone - Nutzung ohne ERP System
 
 Sie können Scrive auch direkt in der Scrive Oberfläche nutzen, dies ist in folgenden Fällen hilfreich:
