@@ -14,7 +14,7 @@ Als **DocuSign Bestandskunde** können Sie bis auf weiteres weiterhin DocuSign f
 
 Die Schritte und möglichen Einstellungen sind dabei auch in diesem Video zusammengefasst:
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://www.loom.com/share/8531337f269c44f2a4cd506b84fd16a5?sid=2bc293ed-8459-42d8-8820-0fc2a1a12012">KLICKEN SIE HIER</a> - Dabei wird Loom in einem neuem Tab, außerhalb von Aareon Connect, geöffnet</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p><a href="https://www.loom.com/share/8531337f269c44f2a4cd506b84fd16a5?sid=2bc293ed-8459-42d8-8820-0fc2a1a12012">KLICKEN SIE HIER</a> - Dabei wird Loom in einem neuem Tab, außerhalb von Aareon Connect, geöffnet</p></figcaption></figure>
 
 1. Öffnen Sie Aareon Connect in Ihrem ERP System ([mehr Details](../../../#aareon-connect-per-video-verstehen))
 2. Gehen Sie auf **DocuSign**

@@ -112,3 +112,9 @@ Die Einstellungen dafür sind wie in [#initiale-einrichtung](wodis-yuneo.md#init
 
 1. Im Yuneo **Cockpit** können Sie den Status aller Digitalen Unterschrifts-Dokumente einsehen
 2. Durch Klick auf einer dort angezeigten Aktivität sehen Sie die Details der Aktivität, das unterschriebene Dokument, das Unterschriftszertifikat und weitere Informationen
+
+Zusätzlich können Sie sich einen Filter in der Aktivitäten Übersicht erstellen, sodass Sie den jeweiligen Unterzeichnungsstatus auf einen Blick sehen können:
+
+<figure><img src="../../../.gitbook/assets/Microsoft Teams (work or school) 2025-04-03 14.01.25.png" alt=""><figcaption><p>Filtererstellung</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Aktivitäten Übersicht mit Unterzeichnungsstatus</p></figcaption></figure>
