@@ -8,12 +8,12 @@ Lesen Sie wie [hier beschrieben](../../../erps/wodis-yuneo.md#aareon-connect-in-
 
 ### Verknüpfung zwischen WODIS Yuneo und Aareon Connect herstellen
 
-Nachdem Sie die Digitale Unterschrift wie in [#aktivierung-in-aareon-connect](../scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") beschrieben aktiviert haben muss zuletzt die Verknüpfung zwischen WODIS Yuneo und Aareon Connect eingerichtet werden.
+Nachdem Sie die Digitale Unterschrift wie in [#aktivierung-in-aareon-connect](../technologie-partner/scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") beschrieben aktiviert haben muss zuletzt die Verknüpfung zwischen WODIS Yuneo und Aareon Connect eingerichtet werden.
 
 1. Gehen Sie auf **Systemeinrichtung** > **Optionen** > **Optionen Allgemein** > **Digitale Unterschrift**
 2. Setzen Sie **Digitale Unterschrift** auf **Konfigurieren**
 3. Wählen Sie **Scrive** bei **Technologiepartner** aus
-4. Tragen sie den **Benutzernamen**, **Passwort** und **Integrations ID** ein, welche Sie nach der [#aktivierung-in-aareon-connect](../scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") erhalten haben
+4. Tragen sie den **Benutzernamen**, **Passwort** und **Integrations ID** ein, welche Sie nach der [#aktivierung-in-aareon-connect](../technologie-partner/scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") erhalten haben
 5. Unter der Integrations-ID können Sie bei **Vorbelegung Versandreihenfolge** die standard **Reihenfolge** nach Unterzeichner Gruppe (Intern und Extern) bestimmen, in der die Vertragsparteien unterzeichnen sollen.\
    Bei **Versand pro Gruppe** können Sie bestimmen, ob alle Unterzeichner der jeweiligen Gruppe **Gleichzeitig** oder basierend auf der Reihenfolge in der Aktivität unterzeichnen sollen.\
    Diese standard Reihenfolge können Sie, wenn gewünscht, in jedem einzelnem Vorgang überschreiben.

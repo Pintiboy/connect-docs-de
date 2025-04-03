@@ -24,9 +24,9 @@ Sie können die Digitale Unterschrift für alle Dokumente, wie zum Beispiel:
 &#x20;und verschiedenste Szenarien nutzen, unter anderem:
 
 * reguläre Digitale Unterschrift
-* [#qualifizierte-elektronische-signatur-qes](scrive-technologie-partner.md#qualifizierte-elektronische-signatur-qes "mention") (rechtlich gleichgesetzt zur handschriftliche Unterschrift)
+* [#qualifizierte-elektronische-signatur-qes](technologie-partner/scrive-technologie-partner.md#qualifizierte-elektronische-signatur-qes "mention") (rechtlich gleichgesetzt zur handschriftliche Unterschrift)
 * Digitale Unterschrift vor Ort
-* [#standalone-nutzung-ohne-erp-system](scrive-technologie-partner.md#standalone-nutzung-ohne-erp-system "mention")
+* [#standalone-nutzung-ohne-erp-system](technologie-partner/scrive-technologie-partner.md#standalone-nutzung-ohne-erp-system "mention")
 
 {% hint style="warning" %}
 Nicht alle ERPs unterstützen alle Dokumente und Funktionen. Details dazu finden Sie unter [erps](erps/ "mention").
@@ -55,7 +55,7 @@ Basierend auf den aktuellen rechtlichen Vorgaben und gängigen Nutzung in der Pr
 Diese Informationen ersetzen keinesfalls individuelle Rechtsberatung und stellen keine Rechtsauskunft dar. Wir übernehmen daher keinerlei Haftung für die angebotenen Informationen.
 {% endhint %}
 
-Hier finden Sie mehr Details zum [#ablauf-von-qes-in-scrive](scrive-technologie-partner.md#ablauf-von-qes-in-scrive "mention").
+Hier finden Sie mehr Details zum [#ablauf-von-qes-in-scrive](technologie-partner/scrive-technologie-partner.md#ablauf-von-qes-in-scrive "mention").
 
 ## Datenfluss der Digitalen Unterschrift
 
@@ -65,8 +65,8 @@ Hier finden Sie mehr Details zum [#ablauf-von-qes-in-scrive](scrive-technologie-
 
 Weitere Informationen zur Einrichtung und Nutzung finden Sie hier:
 
-{% content-ref url="scrive-technologie-partner.md" %}
-[scrive-technologie-partner.md](scrive-technologie-partner.md)
+{% content-ref url="technologie-partner/scrive-technologie-partner.md" %}
+[scrive-technologie-partner.md](technologie-partner/scrive-technologie-partner.md)
 {% endcontent-ref %}
 
 {% content-ref url="erps/" %}

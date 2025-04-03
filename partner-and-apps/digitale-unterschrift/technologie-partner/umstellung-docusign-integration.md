@@ -1,4 +1,8 @@
-# Umstellung DocuSign Integration
+# DocuSign
+
+{% hint style="warning" %}
+[**Scrive**](scrive-technologie-partner.md) ist seit 2023 unser präferierter Technologiepartner und DocuSign wird nur für DocuSign Bestandskunden unterstützt.
+{% endhint %}
 
 ## Aktivierung in Aareon Connect
 
@@ -10,20 +14,20 @@ Als **DocuSign Bestandskunde** können Sie bis auf weiteres weiterhin DocuSign f
 
 Die Schritte und möglichen Einstellungen sind dabei auch in diesem Video zusammengefasst:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://www.loom.com/share/8531337f269c44f2a4cd506b84fd16a5?sid=2bc293ed-8459-42d8-8820-0fc2a1a12012">KLICKEN SIE HIER</a> - Dabei wird Loom in einem neuem Tab, außerhalb von Aareon Connect, geöffnet</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://www.loom.com/share/8531337f269c44f2a4cd506b84fd16a5?sid=2bc293ed-8459-42d8-8820-0fc2a1a12012">KLICKEN SIE HIER</a> - Dabei wird Loom in einem neuem Tab, außerhalb von Aareon Connect, geöffnet</p></figcaption></figure>
 
-1. Öffnen Sie Aareon Connect in Ihrem ERP System ([mehr Details](../../#aareon-connect-per-video-verstehen))
+1. Öffnen Sie Aareon Connect in Ihrem ERP System ([mehr Details](../../../#aareon-connect-per-video-verstehen))
 2. Gehen Sie auf **DocuSign**
 3. Geben Sie bei der Integration **Digitale Unterschrift mit DocuSign** die Zugangsdaten für den DocuSign Nutzter ein (muss ein Admin Nutzer sein), den Sie für die Integration verwenden möchten
    1.  Wir empfehlen, dass Sie einen Admin Nutzer speziell für die Integration nutzen um Probleme bei z.B. Passwort Änderung eines regulären Nutzers zu vermeiden
 
-       <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4. Klicken Sie auf **Autorisieren**
    1. Die Nutzerdaten werden direkt überprüft und bei falschen Informationen erhalten Sie eine Meldung mit weiteren Informationen
 5.  _Optional:_ Suchen Sie nach dem DocuSign Account Namen den Sie verwenden wollen und suchen Sie den passenden Namen aus der Liste aus. Wenn Sie das Feld leer lassen wir der Standard Account verwendet.\
 
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 6. Sie können weitere Einstellungen vornehmen:
    1. _Optional_: Geben Sie die Bezeichnung der von Ihnen genutzten (Alternativer) QES Identitätsüberprüfung an, mehr Details in [#nutzung-von-qes](umstellung-docusign-integration.md#nutzung-von-qes "mention")
    2. _Optional_: Geben Sie die Bezeichnung der von Ihnen genutzten SMS PIN Identitätsüberprüfung an, mehr Details in [#nutzung-von-sms-pin](umstellung-docusign-integration.md#nutzung-von-sms-pin "mention")
@@ -35,7 +39,7 @@ Die Schritte und möglichen Einstellungen sind dabei auch in diesem Video zusamm
 
 ### Nutzung von QES
 
-Mehr Details zu [#qualifizierte-elektronische-unterschrift](./#qualifizierte-elektronische-unterschrift "mention") finden Sie im verlinkten Artikel.
+Mehr Details zu [#qualifizierte-elektronische-unterschrift](../#qualifizierte-elektronische-unterschrift "mention") finden Sie im verlinkten Artikel.
 
 Um QES mit DocuSign nutzen zu können müssen Sie eine entsprechende "Identitätsüberprüfung" in Ihrem DocuSign Account haben.\
 [Mehr Details dazu finden Sie hier bei DocuSign direkt](https://support.docusign.com/s/document-item?language=de\&rsc_301=\&bundleId=pik1583277475390\&topicId=eya1583277454804.html&_LANG=dede).
@@ -43,7 +47,7 @@ Um QES mit DocuSign nutzen zu können müssen Sie eine entsprechende "Identität
 Um diese integriert Nutzen zu können müssen Sie den genauen Namen im 6. Schritt (Anleitung oben) eingeben.\
 Den genauen Namen können Sie bei DocuSign unter **Einstellungen** > **Identitätsüberprüfung** sehen, wo sie die passende Identitätsüberprüfung aus der Liste auswählen können und diese dann so markieren und kopieren können:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-15 at 17.14.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-15 at 17.14.58.png" alt=""><figcaption></figcaption></figure>
 
 #### QES Alternative Identitätsüberprüfung
 
@@ -53,7 +57,7 @@ Geben Sie, wie bei der regulären QES Identitätsüberprüfung, den Namen der Id
 
 Die Einstellungen könnten z.B. so aussehen:
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Beispielhafte QES Alternative Identitätsüberprüfung Einstellungen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Beispielhafte QES Alternative Identitätsüberprüfung Einstellungen</p></figcaption></figure>
 
 In dem Fall nutzen alle Unterzeichner die Identitätsüberprüfung **IDV Premier Selfie Ident**, _außer_ die Unterzeichner die in ihrer E-Mail **@wodis-wohnau.de** enthalten haben, diese nutzen **IDNow (Video Ident)**.
 
@@ -67,13 +71,13 @@ Um SMS PIN mit DocuSign nutzen zu können müssen Sie eine entsprechende "Identi
 Um diese integriert Nutzen zu können müssen Sie den genauen Namen im 6. Schritt (Anleitung oben) eingeben.\
 Den genauen Namen können Sie bei DocuSign unter **Einstellungen** > **Identitätsüberprüfung** sehen, wo sie die passende Identitätsüberprüfung aus der Liste auswählen können und diese dann so markieren und kopieren können:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-15 at 17.14.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-15 at 17.14.58.png" alt=""><figcaption></figcaption></figure>
 
 ### Benutzerdefinierter E-Mail Betreff und Text
 
 Sie können während der Aktivierung einen benutzerdefinierten E-Mail Betreff und/oder E-Mail Text setzen:
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 Jeder Umschlag der über das ERP verschickt wird, wird diesen Betreff und/oder Text in der E-Mail von DocuSign haben und somit den Standard von DocuSign überschreiben.
 
@@ -89,7 +93,7 @@ Wenn Sie in DocuSign eine Marke erstellt haben ([mehr Details](https://support.d
 
 Die Marken ID finden Sie hier in DocuSign:
 
-<figure><img src="../../.gitbook/assets/Arc 2024-10-29 14.26.24.png" alt=""><figcaption><p>Marken-ID in DocuSign einsehen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc 2024-10-29 14.26.24.png" alt=""><figcaption><p>Marken-ID in DocuSign einsehen</p></figcaption></figure>
 
 ### Nutzung von Signiergruppen
 
@@ -98,5 +102,5 @@ Wenn Sie für bestimmte Unterzeichner aus dem ERP System eine Signiergruppe benu
 *   **Signiergruppen-ID**: Diese finden Sie in den DocuSign Einstellungen unter **Benutzer und Gruppen** > **Signiergruppen** > **Signiergruppen-ID**\
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2024-09-13 at 17.42.12.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Screenshot 2024-09-13 at 17.42.12.png" alt=""><figcaption></figcaption></figure>
 * **Signiergruppe - E-Mail Domain Filter**: E-Mail Domain als Filter für die Signiergruppe. Nur Unterzeichner mit dieser E-Mail Domain werden durch die Signiergruppe ersetzt, alle anderen Unterzeichner werden wie im ERP System definiert zu dem Umschlag hinzugefügt.

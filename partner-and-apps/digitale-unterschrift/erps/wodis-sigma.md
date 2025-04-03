@@ -8,7 +8,7 @@ Lesen Sie wie [hier beschrieben](../../../erps/wodis-sigma.md#aareon-connect-in-
 
 ### Verknüpfung zwischen WODIS Sigma und Aareon Connect herstellen
 
-Nachdem Sie die Digitale Unterschrift wie in [#aktivierung-in-aareon-connect](../scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") beschrieben aktiviert haben, muss zuletzt die Verknüpfung zwischen WODIS Sigma und Aareon Connect eingerichtet werden.
+Nachdem Sie die Digitale Unterschrift wie in [#aktivierung-in-aareon-connect](../technologie-partner/scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") beschrieben aktiviert haben, muss zuletzt die Verknüpfung zwischen WODIS Sigma und Aareon Connect eingerichtet werden.
 
 1. Gehen Sie auf **Zentrale Funktionen** > **Aktivitätenmanagement** > **Stammdaten** > **Aktivitätenmanagement Einstellungen**
 2.  Tragen Sie für das Feld **Digitale Signatur Logins** den Wert **Scrive** in die Spalte **Benutzerwert** ein\
@@ -16,7 +16,7 @@ Nachdem Sie die Digitale Unterschrift wie in [#aktivierung-in-aareon-connect](..
 
     <figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 3. Somit erscheinen die benötigten Felder
-4. Tragen Sie die Daten, welche Sie nach der [#aktivierung-in-aareon-connect](../scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") erhalten haben in die entsprechenden Felder ein:
+4. Tragen Sie die Daten, welche Sie nach der [#aktivierung-in-aareon-connect](../technologie-partner/scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") erhalten haben in die entsprechenden Felder ein:
    1. **Benutzernamen** in das Feld **Scrive: Digitale Signatur User**
    2. das **Passwort** in das Feld **Scrive: Digitale Signatur Password**
    3. die **URL** in das Feld **Scrive: Digitale Signatur Url**
@@ -195,7 +195,7 @@ Sie können die Dokumenten-ID auch direkt während der Aktivitäten Erstellung i
    1. Wählen Sie eine Authentifizierungsart unter **Authentifizierung zum Signieren**
       1. Für "Standard" können Sie das Feld auch leer lassen
    2. _Optional:_ Geben Sie unter **Email-Adresse für vor Ort Unterschrift** eine E-Mail Adresse (z.B. E-Mail die auf einem iPad angezeigt wird) ein, damit ein Mieter direkt vor Ort unterschreiben kann. Fügen Sie hinter dem Unterzeichner-Tag des Mieters ein Komma, ein Leerzeichen und „vor Ort“ ein.\
-      Mehr Details zur [#vor-ort-unterschrift](../scrive-technologie-partner.md#vor-ort-unterschrift "mention")
+      Mehr Details zur [#vor-ort-unterschrift](../technologie-partner/scrive-technologie-partner.md#vor-ort-unterschrift "mention")
    3.  _Optional:_ Geben Sie unter **E-Mail Adressen für Beobachter** eine oder mehrere E-Mail Adressen kommasepariert ein, welche als Beobachter zu dem Umschlag hinzugefügt werden (ähnlich wie jemanden in einer E-Mail CC nehmen).
 
        Diese Empfänger werden dann per E-Mail über den Vorgang informiert und können sich den Umschlag in Scrive / DocuSign ansehen, aber nicht unterschreiben.

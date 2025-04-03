@@ -2,11 +2,11 @@
 description: Technologie Partner für die Digitale Unterschrift
 ---
 
-# Scrive - Technologie Partner
+# Scrive
 
 Aareon arbeitet mit **Scrive** für die digitale Unterschrift zusammen, dem führenden B2B-Unterschriftsanbieter aus Europa:
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Kurzübersicht Scrive in Zahlen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Kurzübersicht Scrive in Zahlen</p></figcaption></figure>
 
 {% hint style="info" %}
 Seit Dezember 2023 ist unser Technologie Partner Scrive, mit dem wir Ihnen mehr und komfortablere Unterschrifts-Lösungen anbieten können.\
@@ -26,7 +26,7 @@ Aareon hat sich entschieden den Technologie Partner zu wechseln um Ihnen folgend
 
 * Account Erstellung in nur 1-3 Tagen nach Unterzeichnung des Angebots von Aareon möglich
 * Besonders tiefe und stabile Integration in ERPs
-* Einfache und intuitive Nutzung in den [erps](erps/ "mention") und mit [#standalone-nutzung-ohne-erp-system](scrive-technologie-partner.md#standalone-nutzung-ohne-erp-system "mention")
+* Einfache und intuitive Nutzung in den [erps](../erps/ "mention") und mit [#standalone-nutzung-ohne-erp-system](scrive-technologie-partner.md#standalone-nutzung-ohne-erp-system "mention")
 * Transparenteres Preismodell
 * Scrive hat seinen primären Firmensitz in der EU
 
@@ -38,13 +38,13 @@ Diese Schritte müssen Sie nur einmalig durchführen, um danach die integrierte 
 
 1. Kurz nachdem Sie den Digitalen Unterschrifts-Vertrag abgeschlossen haben, erhalten Sie eine Einladungs-E-Mail wie diese von Scrive:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Nachdem Sie auf **Kontoaktivierung** klicken, können Sie ein Passwort und weitere Informationen hinterlegen:
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="534"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="534"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Im Hintergrund haben wir für Sie nach Vertragsabschluss ein Account bei Scrive angelegt und einen initialen Admin Nutzer erstellt. Dieser initiale Nutzer erhält die gezeigte E-Mail.
@@ -115,11 +115,11 @@ Nun können Sie mit der [#aktivierung-in-aareon-connect](scrive-technologie-part
 
 Nachdem Sie die [#initiale-einrichtung-in-scrive](scrive-technologie-partner.md#initiale-einrichtung-in-scrive "mention") abgeschlossen haben, können Sie die Digitalen Unterschrift mit Scrive in Aareon Connect zu aktivieren:
 
-1. Öffnen Sie **Aareon Connect** in Ihrem ERP System ([mehr Details](../../erps/))
+1. Öffnen Sie **Aareon Connect** in Ihrem ERP System ([mehr Details](../../../erps/))
 2. Gehen Sie auf **Scrive**
 3.  Wählen Sie bei der Integration **Digitale Unterschrift mit Scrive** die Umgebung **Production** aus und klicken Sie auf **Autorisieren**
 
-    <figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 4. Sie werden nun auf eine Login von Scrive weitergeleitet wo Sie sich mit dem Scrive Nutzer einloggen (muss ein Admin Nutzer sein), den Sie für die Integration verwenden möchten
    1. Wie in [#3.-nutzer-einladen](scrive-technologie-partner.md#3.-nutzer-einladen "mention") beschrieben, empfehlen wir, dass Sie einen Admin Nutzer speziell für die Integration nutzen um Probleme bei z.B. Passwort Änderung eines regulären Nutzers zu vermeiden
    2. Die Nutzerdaten werden direkt überprüft und bei falschen Informationen erhalten Sie eine Meldung mit weiteren Informationen
@@ -130,7 +130,7 @@ Nachdem Sie die [#initiale-einrichtung-in-scrive](scrive-technologie-partner.md#
 
 Nachdem Sie Ihre Scrive Login Daten hinterlegt haben können Sie im Schritt **Benutzerdefinierte Daten** optionale Einstellungen für die Integration vornehmen.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### Tage bis zum Fälligkeitsdatum
 
@@ -142,13 +142,13 @@ Wird das Dokument nach Ablauf dieser konfigurierten Frist nicht unterzeichnet, w
 
 Sie können die E-Mail Texte anpassen, welche in der Einladungs- und Bestätigungs-E-Mail verwendet werden sollen:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>Der blau markierte Teil kann konfiguriert werden.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>Der blau markierte Teil kann konfiguriert werden.</p></figcaption></figure>
 
 Dabei können Sie jeweils andere Texte für Unterzeichner und Beobachter definieren. Bei der Bestätigungs-E-Mail wird allerdings der selbe Text für alle Beteiligten verwendet.
 
 ## Ablauf von QES in Scrive
 
-Mehr Details zu [#qualifizierte-elektronische-unterschrift](./#qualifizierte-elektronische-unterschrift "mention") finden Sie im verlinkten Artikel.
+Mehr Details zu [#qualifizierte-elektronische-unterschrift](../#qualifizierte-elektronische-unterschrift "mention") finden Sie im verlinkten Artikel.
 
 Der Ablauf von QES unterscheidet sich je nachdem, ob QES das erste Mal von den jeweiligen Unterzeichnern genutzt wird oder dieser bereits registriert ist. Die ersten Prozessschritte sind allerdings in beiden Fällen identisch
 
@@ -156,7 +156,7 @@ Der Ablauf von QES unterscheidet sich je nachdem, ob QES das erste Mal von den j
 2.  Auf der Seite zum Unterschreiben wird nach der Mobilnummer des Unterzeichners gefragt:\
 
 
-    <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     1. Falls die Mobilnummer bereits im ERP hinterlegt ist, wird immer die Mobilnummer aus dem ERP genutzt
 3. Nun wird von Swisscom geprüft, ob die Mobilnummer bereits mit QES registriert wurde, wenn dies _nicht_ der Fall ist, ist, dann geht der Prozess bei [#initiale-nutzung-von-qes-inklusive-registrierung-qes-mit-srs](scrive-technologie-partner.md#initiale-nutzung-von-qes-inklusive-registrierung-qes-mit-srs "mention") weiter, ansonsten geht der Prozess bei [#erneute-nutzung-von-qes](scrive-technologie-partner.md#erneute-nutzung-von-qes "mention") weiter.
@@ -166,7 +166,7 @@ Der Ablauf von QES unterscheidet sich je nachdem, ob QES das erste Mal von den j
 4.  Der Unterzeichner erhält die Möglichkeit sich entweder via Video-Identifikation oder Persönlich auszuweisen:\
 
 
-    <figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Alle weiteren beschriebenen Prozessschritte basieren auf der Auswahl von **Video-Identifikation**
@@ -175,7 +175,7 @@ Alle weiteren beschriebenen Prozessschritte basieren auf der Auswahl von **Video
 5. Der Unterzeichner kann sich die **Mobile ID** App herunterladen ("Wallet") ODER später per Einmal-SMS-Code unterschreiben
    1. _Optional_: Der Unterzeichner folgt der Anleitung der Mobile ID App
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Wir empfehlen das herunterladen der App für alle Unterzeichner Ihres Unternehmens, dies ermöglicht bei [#erneute-nutzung-von-qes](scrive-technologie-partner.md#erneute-nutzung-von-qes "mention") einen sehr schnellen und bequemen Prozess um Dokumente mit QES zu unterschreiben
@@ -222,11 +222,11 @@ Bei der Nutzung von QES sind folgende Besonderheiten zu beachten:
 
 Mit der Vor-Ort-Unterschrift können Ihre Kunden Verträge direkt bei Ihnen vor Ort digital unterschreiben, z.B. auf einem iPad oder Computer eines Mitarbeiters.
 
-Dafür können Sie bei dem Versenden eines Dokuments im ERP eine E-Mail Adresse angeben, an welche die Unterzeichnungs-Links gesammelt zum Unterschreiben gesendet werden sollen (mehr Details in [#funktionsumfang-und-roadmap-je-erp](erps/#funktionsumfang-und-roadmap-je-erp "mention")).
+Dafür können Sie bei dem Versenden eines Dokuments im ERP eine E-Mail Adresse angeben, an welche die Unterzeichnungs-Links gesammelt zum Unterschreiben gesendet werden sollen (mehr Details in [#funktionsumfang-und-roadmap-je-erp](../erps/#funktionsumfang-und-roadmap-je-erp "mention")).
 
 Diese E-Mail kann dann vor Ort geöffnet werden und die Unterzeichner öffnen ihren jeweiligen Link:
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Die Unterzeichnungs-Bestätigung inklusive Kopie des unterzeichneten Dokuments wird weiterhin an die jeweiligen eigenen E-Mail Adressen der Unterzeichner gesendet.
 
@@ -277,7 +277,7 @@ Hier können Sie den Signaturverlauf, von im ERP gestarteten Vorgängen, samt Ze
 3.  Unter **Event log** ist der Signaturverlauf im Detail aufgeführt:\
 
 
-    <figure><img src="../../.gitbook/assets/Arc 2025-04-02 11.15.41.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Arc 2025-04-02 11.15.41.png" alt=""><figcaption></figcaption></figure>
 
 Weitere Informationen finden Sie auch [in der Dokumentation von Scrive](https://helpcenter.scrive.com/kb/guide/en/track-flow-signing-process-7jS15Delax/Steps/2814156).
 
@@ -286,7 +286,7 @@ Weitere Informationen finden Sie auch [in der Dokumentation von Scrive](https://
 Sie können Scrive auch direkt in der Scrive Oberfläche nutzen, dies ist in folgenden Fällen hilfreich:
 
 * Sie wollen einen individuelle Vertrag der nicht im ERP System erzeugt wird verschicken
-* Der Dokumenttyp wird nicht von der Digitalen Unterschrift in Ihrem ERP unterstützt (mehr Details in [#funktionsumfang-und-roadmap-je-erp](erps/#funktionsumfang-und-roadmap-je-erp "mention"))
+* Der Dokumenttyp wird nicht von der Digitalen Unterschrift in Ihrem ERP unterstützt (mehr Details in [#funktionsumfang-und-roadmap-je-erp](../erps/#funktionsumfang-und-roadmap-je-erp "mention"))
 
 {% hint style="warning" %}
 Dokumente die über Scrive direkt verschickt werden, werden nicht automatisch an das ERP übertragen.\
@@ -298,7 +298,7 @@ Sie können die Dokumente natürlich manuell zum ERP hinzufügen.
 1. In Scrive einloggen (mehr Details in [#1.-initiale-registrierung](scrive-technologie-partner.md#1.-initiale-registrierung "mention"))
 2. Links oben auf [**Neuer Prozess**](https://scrive.com/new/newprocess) klicken&#x20;
 
-<figure><img src="../../.gitbook/assets/Anmerkung 2023-12-01 084903 Scrive.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Anmerkung 2023-12-01 084903 Scrive.png" alt=""><figcaption></figcaption></figure>
 
 1. Entweder basierend auf einer Vorlage ([mehr Details zu Vorlagen im Scrive Help Center](https://helpcenter.scrive.com/kb/guide/en/work-with-templates-iE16m1KJwL/Steps/1659917)) oder mit **Start** einen neuen Prozess beginnen
 2. Fügen Sie unter **Parteien** die Personen hinzu die unterschreiben sollen

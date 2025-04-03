@@ -42,7 +42,7 @@ Nein, Sie erhalten eine Email, damit die Verifizierung durchgeführt werden kann
 
 <summary>Ich möchte gerne direkt Verträge vor Ort unterzeichnen lassen. Ist dies möglich?</summary>
 
-Ja, mit der [#vor-ort-unterschrift](scrive-technologie-partner.md#vor-ort-unterschrift "mention").
+Ja, mit der [#vor-ort-unterschrift](technologie-partner/scrive-technologie-partner.md#vor-ort-unterschrift "mention").
 
 </details>
 
@@ -86,7 +86,7 @@ Dabei muss jeder Unterzeichner eine andere E-Mail-Adresse besitzen, da diese als
 
 Komplett integriert können je nach ERP entweder alle Dokumente oder Dokumente die auf Mietverträgen basieren unterschrieben werden, weiter Details:[#funktionsumfang-und-roadmap-je-erp](erps/#funktionsumfang-und-roadmap-je-erp "mention").
 
-Alle Dokumente, unabhängig vom ERP, können zudem direkt in Scrive mit [#standalone-nutzung-ohne-erp-system](scrive-technologie-partner.md#standalone-nutzung-ohne-erp-system "mention") unterschrieben werden.
+Alle Dokumente, unabhängig vom ERP, können zudem direkt in Scrive mit [#standalone-nutzung-ohne-erp-system](technologie-partner/scrive-technologie-partner.md#standalone-nutzung-ohne-erp-system "mention") unterschrieben werden.
 
 </details>
 
@@ -137,7 +137,7 @@ Nach der initialen Dokument Erstellung können Sie somit eine Weiterbearbeitung 
 
 <summary>Wie kann ein Mieter unterzeichnen, der keine E-Mail Adresse hat?</summary>
 
-Für diesen Fall kann die [#vor-ort-unterschrift](scrive-technologie-partner.md#vor-ort-unterschrift "mention") genutzt werden. Als E-Mail Adresse für den Mieter muss in dem Fall eine interne E-Mail Adresse hinterlegt werden.
+Für diesen Fall kann die [#vor-ort-unterschrift](technologie-partner/scrive-technologie-partner.md#vor-ort-unterschrift "mention") genutzt werden. Als E-Mail Adresse für den Mieter muss in dem Fall eine interne E-Mail Adresse hinterlegt werden.
 
 </details>
 
@@ -147,7 +147,7 @@ Für diesen Fall kann die [#vor-ort-unterschrift](scrive-technologie-partner.md#
 
 <summary>Welche Art von Vertrag oder Dokument kann ich mit welcher Sicherheitsstufe unterschreiben?</summary>
 
-Dies ist grundsätzlich Ihnen überlassen, wir empfehlen folgende Handhabung: [#wann-sollte-die-qes-genutzt-werden](scrive-technologie-partner.md#wann-sollte-die-qes-genutzt-werden "mention").
+Dies ist grundsätzlich Ihnen überlassen, wir empfehlen folgende Handhabung: [#wann-sollte-die-qes-genutzt-werden](technologie-partner/scrive-technologie-partner.md#wann-sollte-die-qes-genutzt-werden "mention").
 
 </details>
 
@@ -200,7 +200,7 @@ Die Envelopes können im Standard ein Jahr genutzt werden.
 
 <summary>Wie erfolgt bei QES die Authentifizierung?</summary>
 
-Der Unterzeichner kann sich entweder per Video-Identifkation, Selfie-Ident oder persönlich vor Ort authentifizieren (weitere Details: [#ablauf-von-qes-in-scrive](scrive-technologie-partner.md#ablauf-von-qes-in-scrive "mention")).
+Der Unterzeichner kann sich entweder per Video-Identifkation, Selfie-Ident oder persönlich vor Ort authentifizieren (weitere Details: [#ablauf-von-qes-in-scrive](technologie-partner/scrive-technologie-partner.md#ablauf-von-qes-in-scrive "mention")).
 
 </details>
 
