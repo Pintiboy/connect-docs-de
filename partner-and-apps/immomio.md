@@ -50,19 +50,11 @@ Sollte Ihr Immomio Account über ein altes DIT System laufen, werden sie zusätz
 
 #### Entitäten
 
-| ERP                                                            | Immomio              |
-| -------------------------------------------------------------- | -------------------- |
-| [Wirtschaftseinheiten](../entitaeten/wirtschaftseinheiten.md)  | Wirtschaftseinheiten |
-| [Gebäude](../entitaeten/gebaeude.md)                           | _Kommt in Kürze_     |
-| [Verwaltungseinheiten](../kategorien/eigentuemerverwaltung.md) | Verwaltungseinheiten |
-| [Mietverträge](../entitaeten/mietvertraege.md)                 | _Kommt in Kürze_     |
-| [Mieter](../entitaeten/mieter.md)                              | _Kommt in Kürze_     |
-| [Eigentümervertrag](../entitaeten/eigentuemervertraege.md)     | _Kommt in Kürze_     |
-| [Eigentümer](../entitaeten/eigentuemer.md)                     | _Kommt in Kürze_     |
+<table><thead><tr><th width="374">ERP</th><th>Immomio</th></tr></thead><tbody><tr><td>Mandanten</td><td>Wirtschaftseinheiten</td></tr><tr><td><a href="../entitaeten/wirtschaftseinheiten.md">Wirtschaftseinheiten</a></td><td>Wirtschaftseinheiten</td></tr><tr><td><a href="../entitaeten/gebaeude.md">Gebäude</a></td><td>Wirtschaftseinheiten (bei Immotion nicht enthalten)</td></tr><tr><td><a href="../kategorien/eigentuemerverwaltung.md">Verwaltungseinheiten</a></td><td>Wirtschaftseinheiten</td></tr><tr><td><a href="../entitaeten/mietvertraege.md">Mietverträge</a></td><td>Mietverträge</td></tr><tr><td><a href="../entitaeten/mieter.md">Mieter</a></td><td>Mieter</td></tr></tbody></table>
 
 #### Einstellungen
 
-<table><thead><tr><th width="328.3333333333333">Name</th><th>Beschreibung</th><th>Optionen</th></tr></thead><tbody><tr><td>Separator für zusammengesetzte IDs</td><td>Dieser Separator wird genutzt um die IDs in dem Partner System aus den ERP Nummern zusammenzusetzen, sodass die IDs eindeutig sind.</td><td><code>-</code>, <code>_</code>, <code>.</code>, <code>/</code>, <code>|</code></td></tr><tr><td>Mandanten Nummern</td><td>Es werden nur Daten für die eingetragenen Mandanten synchronisiert.</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="328.3333333333333">Name</th><th>Beschreibung</th><th>Optionen</th></tr></thead><tbody><tr><td>Separator für zusammengesetzte IDs (nicht bei Immotion)</td><td>Dieser Separator zwischen der Nummer der Mandanten, Wirtschaftseinheinten, Gebäuden und Einheiten und wird in Immomio als ID angezeigt. Bei GAP Immotion ist der Separator immer ein <code>.</code>.</td><td><code>.</code>, <code>/</code></td></tr><tr><td>Mandanten Nummern</td><td>Es werden nur Daten für die eingetragenen Mandanten synchronisiert.</td><td></td></tr><tr><td>ERP-Nutzungsarten für Einheiten in Immomio</td><td>Es werden die Verwaltungseinheiten als Einheiten nach Immomio übertragen, die in Immotion folgende Nutzungsarten haben. Dieser wird aus dem Katalog im ERP entnommen.</td><td>Bspw. <code>"Wohnraum", "Wohnen"</code></td></tr><tr><td>ERP-Nutzungsarten für Garagen in Immomio</td><td>Es werden die Verwaltungseinheiten als Garagen nach Immomio übertragen, die in Immotion folgende Nutzungsarten haben. Dieser wird aus dem Katalog im ERP entnommen. </td><td>Bspw. <code>"Stellplatz", "Garage"</code></td></tr><tr><td>ERP-Nutzungsarten für Gewerbeeinheiten in Immomio</td><td>Es werden die Verwaltungseinheiten als Gewerbeeinheiten nach Immomio übertragen, die in Immotion folgende Nutzungsarten haben. Dieser wird aus dem Katalog im ERP entnommen. </td><td>Bspw. <code>"Gewerbe", "Gewerbeeinheit"</code></td></tr></tbody></table>
 
 #### Voraussetzungen
 
@@ -84,13 +76,15 @@ Sollte Ihr Immomio Account über ein altes DIT System laufen, werden sie zusätz
 
 #### Einstellungen
 
-| Name                               | Beschreibung                                                                                                                             | Optionen                 |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| Separator für zusammengesetzte IDs | Dieser Separator zwischen der Nummer der Mandanten, Wirtschaftseinheinten, Gebäuden und Einheiten und wird in Immomio als ID angezeigt.  | `-`, `_`, `.`, `/`, `\|` |
+| Name                                                    | Beschreibung                                                                                                                                                                              | Optionen |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Separator für zusammengesetzte IDs (nicht bei Immotion) | Dieser Separator zwischen der Nummer der Mandanten, Wirtschaftseinheinten, Gebäuden und Einheiten und wird in Immomio als ID angezeigt. Bei GAP Immotion ist der Separator immer ein `.`. | `.`, `/` |
 
 #### Voraussetzungen
 
 * Die Leerstände müssen mit einer Nettokaltmiete übertragen werden
+* Nur Wodis: Die Leerstands-ID in Immomio muss immer viergliedrig sein: Mandanten, Wirtschaftseinheiten, Gebäude und Verwaltungseinheiten, bspw. `1.2.3.4`.&#x20;
+* Nur Immotion: die Leerstands-ID in Immomio wird immer dreigliedrig übertragen: Mandanten, Wirtschaftseinheiten, Verwaltungseinheiten, bspw. `1.2.4`.&#x20;
 
 **FAQ**&#x20;
 
