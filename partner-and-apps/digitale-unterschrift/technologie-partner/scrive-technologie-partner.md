@@ -148,6 +148,21 @@ Dabei können Sie jeweils andere Texte für Unterzeichner und Beobachter definie
 
 ## Ablauf von QES in Scrive
 
+{% hint style="success" %}
+Swisscom QES stellt das QES Verfahren bei Scrive zur Verfügung und es werden folgende Ausweisdokumente unterstützt:
+
+* Selfie Ident:
+  * Deutscher Personalausweis
+  * alle Reisepässe
+* Video Ident:
+  * Personalausweise der EU/EWR, die dem Schengen-Raum angehören
+  * alle Reisepässe
+
+[Weitere Informationen](https://trustservices.swisscom.com/de/support/help-center/identifikationsmethoden)\
+\
+Für QES und SMS PIN können zudem Telefonnummern aller Länder verwendet werden.
+{% endhint %}
+
 Mehr Details zu [#qualifizierte-elektronische-unterschrift](../#qualifizierte-elektronische-unterschrift "mention") finden Sie im verlinkten Artikel.
 
 Der Ablauf von QES unterscheidet sich je nachdem, ob QES das erste Mal von den jeweiligen Unterzeichnern genutzt wird oder dieser bereits registriert ist. Die ersten Prozessschritte sind allerdings in beiden Fällen identisch
