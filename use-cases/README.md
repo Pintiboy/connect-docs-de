@@ -4,7 +4,7 @@ description: Aareon Connect ermöglicht Integrationen insbesondere über konkret
 
 # Use Cases
 
-Aareon Connect ermöglicht Integrationen insbesondere über **STANDARDISIERTE Use Cases**. Warum? Weil man nur mit Standards 6+ ERP-Systeme mit eine Vielzahl an Partnern verbinden kann und somit Hunderten von Kunden in kürzester Zeit Mehrwert mit Integrationen bringen kann.
+Aareon Connect ermöglicht Integrationen insbesondere über **STANDARDISIERTE Use Cases**. Warum? Weil man nur mit Standards 6+ ERP-Systeme mit einer Vielzahl an Partnern verbinden kann und somit Hunderten von Kunden in kürzester Zeit Mehrwert mit Integrationen bringen kann.
 
 ### Use Case Übersicht
 
