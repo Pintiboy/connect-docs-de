@@ -17,7 +17,7 @@ Sie können die Digitale Unterschrift für alle Dokumente, wie zum Beispiel:
 * Mietverträge
 * Genossenschaftsverträge
 * Kautionsverträge
-* Eigentümmerverträge
+* Eigentümerverträge
 * SEPA-Lastschriftmandate
 * und viele weitere Dokumente…
 
